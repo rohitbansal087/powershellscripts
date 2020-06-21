@@ -5,6 +5,9 @@ $AvailabilitySetName = "AvailabilitySetTest"
 $vnetname = "SourceVnet"
 $VnetRG = "SourceVnetRG"
 
+New-AzResourceGroup -Name $resourceGroup -Location $location
+New-AzAvailabilitySet -Name $AvailabilitySetName -ResourceGroupName $resourceGroup -Location $location -PlatformFaultDomainCount 1 -PlatformUpdateDomainCount 1 -Sku "Aligned"
+ 
 $cred = Get-Credential -Message "Enter a username and password for the virtual machine."
 $vnet = Get-AzVirtualNetwork -Name $vnetname -ResourceGroupName $VnetRG
 $nic = New-AzNetworkInterface -Name "myNic1" -ResourceGroupName $resourceGroup -Location $location -SubnetId $vnet.Subnets[0].Id
