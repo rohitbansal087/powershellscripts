@@ -126,7 +126,7 @@ Write-Output $TempASRJob.State "FailbackNetworkMapping"
 
 $ResourceGroup = Get-AzResourceGroup
 
-$ResourceGroupNames = @($ResourceGroup.ResourceGroupName | select-string $ResourceGroupNum)
+$ResourceGroupNames = @($ResourceGroup.ResourceGroupName | select-string "PRD" | select-string $ResourceGroupNum)
 
 foreach ($SourceRG in $ResourceGroupNames) {
 
