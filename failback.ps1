@@ -1,7 +1,5 @@
 $grp =
-#$SourceRG = "rg-sc-SAP-PRD-h-679"
 $SourceRGLocation = "South Central US"
-#$RecoveryRG = "rg-e2-SAP-PDR-h-679"
 $RecoveryRGLocation = "East US 2"
 $VaultRG   = "rg-e2-NSP-NRD-recoveryvault"
 $VaultName = "rsv-e2-asr-01"
@@ -34,81 +32,40 @@ $FailbackContainerMapping = Get-AzRecoveryServicesAsrProtectionContainerMapping 
 ##Get resource group details
 $ResourceGroup = Get-AzResourceGroup
 
-$ResourceGroupNames = @($ResourceGroup.ResourceGroupName | select-string "PRD" | select-string $grp)
+$ResourceGroupNames = @($ResourceGroup.ResourceGroupName | select-string "PDR" | select-string $grp)
 
-foreach ($SourceRG in $ResourceGroupNames) {
+foreach ($RecoveryRG in $ResourceGroupNames) {
 
-    $ServiceName = $SourceRG.Line.Split('-')[4]
+    $ServiceName = $RecoveryRG.Line.Split('-')[4]
 
     ## Replication for Application and Central servers
 
-    if ($ServiceName -eq 'a' -OR $ServiceName -eq 'c') {
-       $VMs = Get-AzVm -ResourceGroupName $SourceRG
-       $RecoveryRG = "rg-e2-SAP-PDR-$ServiceName-$grp"
-       $RecoveryRGID = Get-AzResourceGroup -Name $RecoveryRG -Location $RecoveryRGLocation
+    if ($ServiceName -eq 'a' -OR $ServiceName -eq 'c' -OR $ServiceName -eq 's') {
+        $VMs = Get-AzVm -ResourceGroupName $RecoveryRG
+        $SourceRG = "rg-e2-SAP-PDR-$ServiceName-$grp"
+        $SourceRGID = Get-AzResourceGroup -Name $SourceRG -Location $SourceRGLocation
 
-foreach ( $VM in $VMs ) {
-
-
- $VmName = $VM.Name
- $VmDisk = $VM.StorageProfile.OsDisk.Name
+        foreach ( $VM in $VMs ) {
 
 
-    $ReplicationProtectedItem = Get-AzRecoveryServicesAsrReplicationProtectedItem -FriendlyName $VmName -ProtectionContainer $RecoveryProtContainer
-    $RecoveryPoints = Get-AzRecoveryServicesAsrRecoveryPoint -ReplicationProtectedItem $ReplicationProtectedItem
-"{0} {1}" -f $RecoveryPoints[0].RecoveryPointType, $RecoveryPoints[-1].RecoveryPointTime
-$Job_Failover = Start-AzRecoveryServicesAsrUnplannedFailoverJob -ReplicationProtectedItem $ReplicationProtectedItem -Direction PrimaryToRecovery -RecoveryPoint $RecoveryPoints[-1]
+            $VmName = $VM.Name
+            $VmDisk = $VM.StorageProfile.OsDisk.Name
 
-do {
-        $Job_Failover = Get-AzRecoveryServicesAsrJob -Job $Job_Failover;
-        sleep 30;
-} while (($Job_Failover.State -eq "InProgress") -or ($JobFailover.State -eq "NotStarted"))
+            $ReplicationProtectedItem = Get-AzRecoveryServicesAsrReplicationProtectedItem -FriendlyName $VmName -ProtectionContainer $RecoveryProtContainer
+            $RecoveryPoints = Get-AzRecoveryServicesAsrRecoveryPoint -ReplicationProtectedItem $ReplicationProtectedItem
+            "{0} {1}" -f $RecoveryPoints[0].RecoveryPointType, $RecoveryPoints[-1].RecoveryPointTime
+            $Job_Failover = Start-AzRecoveryServicesAsrUnplannedFailoverJob -ReplicationProtectedItem $ReplicationProtectedItem -Direction PrimaryToRecovery -RecoveryPoint $RecoveryPoints[-1]
 
-$Job_Failover.State
+            do {
+                $Job_Failover = Get-AzRecoveryServicesAsrJob -Job $Job_Failover;
+                sleep 30;
+            } while (($Job_Failover.State -eq "InProgress") -or ($JobFailover.State -eq "NotStarted"))
 
-$CommitFailoverJOb = Start-AzRecoveryServicesAsrCommitFailoverJob -ReplicationProtectedItem $ReplicationProtectedItem
+            $Job_Failover.State
 
-Get-AzRecoveryServicesAsrJob -Job $CommitFailoverJOb
+            $CommitFailoverJOb = Start-AzRecoveryServicesAsrCommitFailoverJob -ReplicationProtectedItem $ReplicationProtectedItem
 
-}
-
+            Get-AzRecoveryServicesAsrJob -Job $CommitFailoverJOb
+        }
     }
-
-# For SBD servers
-
-if ($ServiceName -eq 's') {
-
-
-    VMs = Get-AzVm -ResourceGroupName $SourceRG
-
-    $RecoveryRG = "rg-e2-SAP-PDR-$ServiceName-$grp"
-
-    $RecoveryRGID = Get-AzResourceGroup -Name $RecoveryRG -Location $RecoveryRGLocation
-
-
-    foreach ( $VM in $VMs ) {
-        $VmName = $VM.Name
-        $VmDisk = $VM.StorageProfile.OsDisk.Name
-
-        $ReplicationProtectedItem = Get-AzRecoveryServicesAsrReplicationProtectedItem -FriendlyName $VmName -ProtectionContainer $RecoveryProtContainer
-        $RecoveryPoints = Get-AzRecoveryServicesAsrRecoveryPoint -ReplicationProtectedItem $ReplicationProtectedItem
-    "{0} {1}" -f $RecoveryPoints[0].RecoveryPointType, $RecoveryPoints[-1].RecoveryPointTime
-    $Job_Failover = Start-AzRecoveryServicesAsrUnplannedFailoverJob -ReplicationProtectedItem $ReplicationProtectedItem -Direction PrimaryToRecovery -RecoveryPoint $RecoveryPoints[-1]
-    
-    do {
-            $Job_Failover = Get-AzRecoveryServicesAsrJob -Job $Job_Failover;
-            sleep 30;
-    } while (($Job_Failover.State -eq "InProgress") -or ($JobFailover.State -eq "NotStarted"))
-    
-    $Job_Failover.State
-    
-    $CommitFailoverJOb = Start-AzRecoveryServicesAsrCommitFailoverJob -ReplicationProtectedItem $ReplicationProtectedItem
-    
-    Get-AzRecoveryServicesAsrJob -Job $CommitFailoverJOb
-
-#Remove-AzRecoveryServicesAsrReplicationProtectedItem -ReplicationProtectedItem $ReplicationProtectedItem
-}
-
-}
-
 }
