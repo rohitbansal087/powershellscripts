@@ -1,7 +1,5 @@
 $grp =
-#$SourceRG = "rg-sc-SAP-PRD-h-679"
 $SourceRGLocation = "South Central US"
-#$RecoveryRG = "rg-e2-SAP-PDR-h-679"
 $RecoveryRGLocation = "East US 2"
 $VaultRG   = "rg-e2-NSP-NRD-recoveryvault"
 $VaultName = "rsv-e2-asr-01"
@@ -32,97 +30,52 @@ $ContainerMapping = Get-AzRecoveryServicesAsrProtectionContainerMapping -Protect
 
 $StorageAccount = Get-AzStorageAccount -ResourceGroupName $StorageAccountRG -Name $StorageAccountName
 
-  ##Get resource group details
-  $ResourceGroup = Get-AzResourceGroup
+##Get resource group details
+$ResourceGroup = Get-AzResourceGroup
 
-  $ResourceGroupNames = @($ResourceGroup.ResourceGroupName | select-string "PRD" | select-string $grp)
+$ResourceGroupNames = @($ResourceGroup.ResourceGroupName | select-string "PRD" | select-string $grp)
   
-  foreach ($SourceRG in $ResourceGroupNames) {
+foreach ($SourceRG in $ResourceGroupNames) {
   
-      $ServiceName = $SourceRG.Line.Split('-')[4]
+    $ServiceName = $SourceRG.Line.Split('-')[4]
   
-      ## Replication for Application and Central servers
+    ## Replication for Application and Central servers
   
-      if ($ServiceName -eq 'a' -OR $ServiceName -eq 'c') {
+    if ($ServiceName -eq 'a' -OR $ServiceName -eq 'c' -OR $ServiceName -eq 's') {
          $VMs = Get-AzVm -ResourceGroupName $SourceRG
          $RecoveryRG = "rg-e2-SAP-PDR-$ServiceName-$grp"
          $RecoveryRGID = Get-AzResourceGroup -Name $RecoveryRG -Location $RecoveryRGLocation
          $SourceRGID = Get-AzResourceGroup -Name $SourceRG -Location $SOurceRGLocation
 
-foreach ( $VM in $VMs ) {
+        foreach ( $VM in $VMs ) {
 
   
-   $VmName = $VM.Name
-   $VmDisk = $VM.StorageProfile.OsDisk.Name
-   $VMSpec = Get-AzVm -ResourceGroupName $SourceRG -Name $VmName
+            $VmName = $VM.Name
+            $VmDisk = $VM.StorageProfile.OsDisk.Name
+            $VMSpec = Get-AzVm -ResourceGroupName $SourceRG -Name $VmName
 
-           ## Source AVSet Details
+            ## Source AVSet Details
 
-           $SourceAVSetID = $VMSpec.AvailabilitySetReference.Id
-           $AVSetName = $SourceAVSetID.Split('/')[8]
+            $SourceAVSetID = $VMSpec.AvailabilitySetReference.Id
+            $AVSetName = $SourceAVSetID.Split('/')[8]
 
-           ## Source PPG Details
+            ## Source PPG Details
 
-           $SourcePPPGID = $VMSpec.ProximityPlacementGroup.Id
-           $PPGName = $SourceAVSetID.Split('/')[8]
+            $SourcePPPGID = $VMSpec.ProximityPlacementGroup.Id
+            $PPGName = $SourceAVSetID.Split('/')[8]
 
-           ## Recovery AVSet Details
+            ## Recovery AVSet Details
 
-           $RecoveryAVSet = Get-AzAvailabilitySet -ResourceGroupName $RecoveryRG -Name $AVSetName
-           $RecoveryAVSetID = $RecoveryAVSet.Id
+            $RecoveryAVSet = Get-AzAvailabilitySet -ResourceGroupName $RecoveryRG -Name $AVSetName
+            $RecoveryAVSetID = $RecoveryAVSet.Id
 
-           ## Recovery PPG Details
+            ## Recovery PPG Details
 
-           $RecoveryPPGID = $RecoveryAVSet.ProximityPlacementGroup.Id
-    $ReplicationProtectedItem = Get-AzRecoveryServicesAsrReplicationProtectedItem -FriendlyName $VmName -ProtectionContainer $RecoveryProtContainer
+            $RecoveryPPGID = $RecoveryAVSet.ProximityPlacementGroup.Id
+            $ReplicationProtectedItem = Get-AzRecoveryServicesAsrReplicationProtectedItem -FriendlyName $VmName -ProtectionContainer $RecoveryProtContainer
 
-       Update-AzRecoveryServicesAsrProtectionDirection  -AzureToAzure -ReplicationProtectedItem $ReplicationProtectedItem  -ProtectionContainerMapping $ContainerMapping -LogStorageAccountId $StorageAccount.Id -RecoveryResourceGroupID $RecoveryRGID.ResourceId -RecoveryProximityPlacementGroupId $RecoveryPPGID.Id 
+            Update-AzRecoveryServicesAsrProtectionDirection  -AzureToAzure -ReplicationProtectedItem $ReplicationProtectedItem  -ProtectionContainerMapping $ContainerMapping -LogStorageAccountId $StorageAccount.Id -RecoveryResourceGroupID $RecoveryRGID.ResourceId -RecoveryProximityPlacementGroupId $RecoveryPPGID.Id 
      
-     }
-
+        }
     }
-  
-    # For SBD servers
-
-    if ($ServiceName -eq 's') {
-
-
-      VMs = Get-AzVm -ResourceGroupName $SourceRG
-
-      $RecoveryRG = "rg-e2-SAP-PDR-$ServiceName-$grp"
-
-      $RecoveryRGID = Get-AzResourceGroup -Name $RecoveryRG -Location $RecoveryRGLocation
-
-
-      foreach ( $VM in $VMs ) {
-          $VmName = $VM.Name
-          $VmDisk = $VM.StorageProfile.OsDisk.Name
-          $VMSpec = Get-AzVm -ResourceGroupName $SourceRG -Name $VmName
-
-          ## Source AVSet Details
-
-          $SourceAVSetID = $VMSpec.AvailabilitySetReference.Id
-          $AVSetName = $SourceAVSetID.Split('/')[8]
-
-          ## Source PPG Details
-
-          $SourcePPPGID = $VMSpec.ProximityPlacementGroup.Id
-          $PPGName = $SourceAVSetID.Split('/')[8]
-
-          ## Recovery AVSet Details
-
-          $RecoveryAVSet = Get-AzAvailabilitySet -ResourceGroupName $RecoveryRG -Name $AVSetName
-          $RecoveryAVSetID = $RecoveryAVSet.Id
-
-          ## Recovery PPG Details
-
-          $RecoveryPPGID = $RecoveryAVSet.ProximityPlacementGroup.Id
-
-          $ReplicationProtectedItem = Get-AzRecoveryServicesAsrReplicationProtectedItem -FriendlyName $VmName -ProtectionContainer $RecoveryProtContainer
-
-          Update-AzRecoveryServicesAsrProtectionDirection  -AzureToAzure -ReplicationProtectedItem $ReplicationProtectedItem  -ProtectionContainerMapping $ContainerMapping -LogStorageAccountId $StorageAccount.Id -RecoveryResourceGroupID $RecoveryRGID.ResourceId -RecoveryProximityPlacementGroupId $RecoveryPPGID.Id 
-      }
-      
-    }
-
-  }
+}
