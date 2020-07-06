@@ -30,9 +30,7 @@ $ResourceGroupNames = @($ResourceGroup.ResourceGroupName | select-string "PRD" |
 foreach ($SourceRG in $ResourceGroupNames) {
    
     $ServiceName = $SourceRG.Line.Split('-')[4]
-   
-    ## Replication for Application and Central servers
-   
+      
     if ($ServiceName -eq 'a' -OR $ServiceName -eq 'c' -OR $ServiceName -eq 's') {
 
 
@@ -45,7 +43,7 @@ foreach ($SourceRG in $ResourceGroupNames) {
             $VmName = $VM.Name
 
             $ReplicationProtectedItem = Get-AzRecoveryServicesAsrReplicationProtectedItem -FriendlyName $VmName  -ProtectionContainer $PrimaryProtContainer -ErrorAction SilentlyContinue
-            if (!($?)) {
+            if ($?) {
 
                 $RecoveryPoints = Get-AzRecoveryServicesAsrRecoveryPoint -ReplicationProtectedItem $ReplicationProtectedItem 
                 "{0} {1}" -f $RecoveryPoints[0].RecoveryPointType, $RecoveryPoints[-1].RecoveryPointTime
@@ -59,9 +57,7 @@ foreach ($SourceRG in $ResourceGroupNames) {
                 $Job_Failover.State
 
                 $CommitFailoverJOb = Start-AzRecoveryServicesAsrCommitFailoverJob -ReplicationProtectedItem $ReplicationProtectedItem
-  
-
-       
+        
                 Get-AzRecoveryServicesAsrJob -Job $CommitFailoverJOb
             }
         }
