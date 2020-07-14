@@ -34,3 +34,5 @@ foreach ($vm in $vms) {
         } | Out-Null
     } 
 }
+
+Get-AzTableRow -table $CloudTable | ft
