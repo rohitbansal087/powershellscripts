@@ -1,0 +1,21 @@
+$StorageAccountName = "testtablestor"
+$SourceRG = "SourceRG"
+$TableName = "vmdetails"
+
+$StorageAccount =  Get-AzStorageAccount -ResourceGroupName $SourceRG  -Name $StorageAccountName
+$ctx = $StorageAccount.context
+$CloudTable = (Get-AzStorageTable –Name $TableName –Context $ctx).CloudTable
+
+$tables = Get-AzTableRow -table $cloudTable
+
+foreach ($table in $tables) {
+    $vmname = $table.hostname
+    $vmip   = $table.ipaddress
+    $rgname = (Get-AzVM -Name $vmname).ResourceGroupName
+    $vm = Get-AzVM -ResourceGroupName $rgname -Name $vmname
+    $NicName = $vm.networkprofile.networkinterfaces.id.split('/')[8]
+    $Nic = Get-AzNetworkInterface -Name $NicName
+    $Nic.IpConfigurations[0].PrivateIpAddress = $table.ipaddress
+    $Nic.IpConfigurations[0].PrivateIpAllocationMethod = "Static"
+    Set-AzNetworkInterface -NetworkInterface $Nic
+}
