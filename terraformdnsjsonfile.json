@@ -1,0 +1,2647 @@
+{
+    "format_version": "0.1",
+    "terraform_version": "0.12.28",
+    "planned_values": {
+        "outputs": {
+            "tls_private_key": {
+                "sensitive": false,
+                "value": "-----BEGIN RSA PRIVATE KEY-----\n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\n-----END RSA PRIVATE KEY-----\n"
+            }
+        },
+        "root_module": {
+            "resources": [
+                {
+                    "address": "azurerm_linux_virtual_machine.myterraformvm[0]",
+                    "mode": "managed",
+                    "type": "azurerm_linux_virtual_machine",
+                    "name": "myterraformvm",
+                    "index": 0,
+                    "provider_name": "azurerm",
+                    "schema_version": 0,
+                    "values": {
+                        "additional_capabilities": [],
+                        "admin_password": null,
+                        "admin_ssh_key": [
+                            {
+                                "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                                "username": "azureuser"
+                            }
+                        ],
+                        "admin_username": "azureuser",
+                        "allow_extension_operations": true,
+                        "availability_set_id": "",
+                        "boot_diagnostics": [
+                            {
+                                "storage_account_uri": "https://diagd07a8864062ab024.blob.core.windows.net/"
+                            }
+                        ],
+                        "computer_name": "myvm",
+                        "custom_data": null,
+                        "dedicated_host_id": "",
+                        "disable_password_authentication": true,
+                        "eviction_policy": "",
+                        "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-0",
+                        "identity": [],
+                        "location": "eastus",
+                        "max_bid_price": -1,
+                        "name": "myVM-0",
+                        "network_interface_ids": [
+                            "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-0"
+                        ],
+                        "os_disk": [
+                            {
+                                "caching": "ReadWrite",
+                                "diff_disk_settings": [],
+                                "disk_encryption_set_id": "",
+                                "disk_size_gb": 30,
+                                "name": "myOsDisk-0",
+                                "storage_account_type": "Premium_LRS",
+                                "write_accelerator_enabled": false
+                            }
+                        ],
+                        "plan": [],
+                        "priority": "Regular",
+                        "private_ip_address": "10.0.1.5",
+                        "private_ip_addresses": [
+                            "10.0.1.5"
+                        ],
+                        "provision_vm_agent": true,
+                        "proximity_placement_group_id": "",
+                        "public_ip_address": "",
+                        "public_ip_addresses": [],
+                        "resource_group_name": "myResourceGroup",
+                        "secret": [],
+                        "size": "Standard_DS1_v2",
+                        "source_image_id": "",
+                        "source_image_reference": [
+                            {
+                                "offer": "UbuntuServer",
+                                "publisher": "Canonical",
+                                "sku": "16.04.0-LTS",
+                                "version": "latest"
+                            }
+                        ],
+                        "tags": {
+                            "environment": "Terraform Demo"
+                        },
+                        "timeouts": null,
+                        "virtual_machine_id": "3b4c724a-2a15-4627-a6f2-faf611431bf4",
+                        "virtual_machine_scale_set_id": "",
+                        "zone": ""
+                    }
+                },
+                {
+                    "address": "azurerm_linux_virtual_machine.myterraformvm[1]",
+                    "mode": "managed",
+                    "type": "azurerm_linux_virtual_machine",
+                    "name": "myterraformvm",
+                    "index": 1,
+                    "provider_name": "azurerm",
+                    "schema_version": 0,
+                    "values": {
+                        "additional_capabilities": [],
+                        "admin_password": null,
+                        "admin_ssh_key": [
+                            {
+                                "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                                "username": "azureuser"
+                            }
+                        ],
+                        "admin_username": "azureuser",
+                        "allow_extension_operations": true,
+                        "availability_set_id": "",
+                        "boot_diagnostics": [
+                            {
+                                "storage_account_uri": "https://diagd07a8864062ab024.blob.core.windows.net/"
+                            }
+                        ],
+                        "computer_name": "myvm",
+                        "custom_data": null,
+                        "dedicated_host_id": "",
+                        "disable_password_authentication": true,
+                        "eviction_policy": "",
+                        "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-1",
+                        "identity": [],
+                        "location": "eastus",
+                        "max_bid_price": -1,
+                        "name": "myVM-1",
+                        "network_interface_ids": [
+                            "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-1"
+                        ],
+                        "os_disk": [
+                            {
+                                "caching": "ReadWrite",
+                                "diff_disk_settings": [],
+                                "disk_encryption_set_id": "",
+                                "disk_size_gb": 30,
+                                "name": "myOsDisk-1",
+                                "storage_account_type": "Premium_LRS",
+                                "write_accelerator_enabled": false
+                            }
+                        ],
+                        "plan": [],
+                        "priority": "Regular",
+                        "private_ip_address": "10.0.1.6",
+                        "private_ip_addresses": [
+                            "10.0.1.6"
+                        ],
+                        "provision_vm_agent": true,
+                        "proximity_placement_group_id": "",
+                        "public_ip_address": "",
+                        "public_ip_addresses": [],
+                        "resource_group_name": "myResourceGroup",
+                        "secret": [],
+                        "size": "Standard_DS1_v2",
+                        "source_image_id": "",
+                        "source_image_reference": [
+                            {
+                                "offer": "UbuntuServer",
+                                "publisher": "Canonical",
+                                "sku": "16.04.0-LTS",
+                                "version": "latest"
+                            }
+                        ],
+                        "tags": {
+                            "environment": "Terraform Demo"
+                        },
+                        "timeouts": null,
+                        "virtual_machine_id": "9695d5af-231e-4543-8c5a-a82d68c545cf",
+                        "virtual_machine_scale_set_id": "",
+                        "zone": ""
+                    }
+                },
+                {
+                    "address": "azurerm_network_interface.myterraformnic[0]",
+                    "mode": "managed",
+                    "type": "azurerm_network_interface",
+                    "name": "myterraformnic",
+                    "index": 0,
+                    "provider_name": "azurerm",
+                    "schema_version": 0,
+                    "values": {
+                        "applied_dns_servers": [],
+                        "dns_servers": [],
+                        "enable_accelerated_networking": false,
+                        "enable_ip_forwarding": false,
+                        "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-0",
+                        "internal_dns_name_label": "",
+                        "internal_domain_name_suffix": "3hkgj4s1qhgutixayuob5sf5od.bx.internal.cloudapp.net",
+                        "ip_configuration": [
+                            {
+                                "name": "myNicConfiguration-0",
+                                "primary": true,
+                                "private_ip_address": "10.0.1.5",
+                                "private_ip_address_allocation": "Dynamic",
+                                "private_ip_address_version": "IPv4",
+                                "public_ip_address_id": "",
+                                "subnet_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet"
+                            }
+                        ],
+                        "location": "eastus",
+                        "mac_address": "00-0D-3A-9E-4A-C1",
+                        "name": "myNIC-0",
+                        "private_ip_address": "10.0.1.5",
+                        "private_ip_addresses": [
+                            "10.0.1.5"
+                        ],
+                        "resource_group_name": "myResourceGroup",
+                        "tags": {
+                            "environment": "Terraform Demo"
+                        },
+                        "timeouts": null,
+                        "virtual_machine_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-0"
+                    }
+                },
+                {
+                    "address": "azurerm_network_interface.myterraformnic[1]",
+                    "mode": "managed",
+                    "type": "azurerm_network_interface",
+                    "name": "myterraformnic",
+                    "index": 1,
+                    "provider_name": "azurerm",
+                    "schema_version": 0,
+                    "values": {
+                        "applied_dns_servers": [],
+                        "dns_servers": [],
+                        "enable_accelerated_networking": false,
+                        "enable_ip_forwarding": false,
+                        "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-1",
+                        "internal_dns_name_label": "",
+                        "internal_domain_name_suffix": "3hkgj4s1qhgutixayuob5sf5od.bx.internal.cloudapp.net",
+                        "ip_configuration": [
+                            {
+                                "name": "myNicConfiguration-1",
+                                "primary": true,
+                                "private_ip_address": "10.0.1.6",
+                                "private_ip_address_allocation": "Dynamic",
+                                "private_ip_address_version": "IPv4",
+                                "public_ip_address_id": "",
+                                "subnet_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet"
+                            }
+                        ],
+                        "location": "eastus",
+                        "mac_address": "00-0D-3A-9E-4D-41",
+                        "name": "myNIC-1",
+                        "private_ip_address": "10.0.1.6",
+                        "private_ip_addresses": [
+                            "10.0.1.6"
+                        ],
+                        "resource_group_name": "myResourceGroup",
+                        "tags": {
+                            "environment": "Terraform Demo"
+                        },
+                        "timeouts": null,
+                        "virtual_machine_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-1"
+                    }
+                },
+                {
+                    "address": "azurerm_network_security_group.myterraformnsg",
+                    "mode": "managed",
+                    "type": "azurerm_network_security_group",
+                    "name": "myterraformnsg",
+                    "provider_name": "azurerm",
+                    "schema_version": 0,
+                    "values": {
+                        "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/myNetworkSecurityGroup",
+                        "location": "eastus",
+                        "name": "myNetworkSecurityGroup",
+                        "resource_group_name": "myResourceGroup",
+                        "security_rule": [
+                            {
+                                "access": "Allow",
+                                "description": "",
+                                "destination_address_prefix": "*",
+                                "destination_address_prefixes": [],
+                                "destination_application_security_group_ids": [],
+                                "destination_port_range": "22",
+                                "destination_port_ranges": [],
+                                "direction": "Inbound",
+                                "name": "SSH",
+                                "priority": 1001,
+                                "protocol": "Tcp",
+                                "source_address_prefix": "*",
+                                "source_address_prefixes": [],
+                                "source_application_security_group_ids": [],
+                                "source_port_range": "*",
+                                "source_port_ranges": []
+                            }
+                        ],
+                        "tags": {
+                            "environment": "Terraform Demo"
+                        },
+                        "timeouts": null
+                    }
+                },
+                {
+                    "address": "azurerm_resource_group.myterraformgroup",
+                    "mode": "managed",
+                    "type": "azurerm_resource_group",
+                    "name": "myterraformgroup",
+                    "provider_name": "azurerm",
+                    "schema_version": 0,
+                    "values": {
+                        "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup",
+                        "location": "eastus",
+                        "name": "myResourceGroup",
+                        "tags": {
+                            "environment": "Terraform Demo"
+                        },
+                        "timeouts": null
+                    }
+                },
+                {
+                    "address": "azurerm_storage_account.mystorageaccount",
+                    "mode": "managed",
+                    "type": "azurerm_storage_account",
+                    "name": "mystorageaccount",
+                    "provider_name": "azurerm",
+                    "schema_version": 2,
+                    "values": {
+                        "access_tier": "Hot",
+                        "account_kind": "StorageV2",
+                        "account_replication_type": "LRS",
+                        "account_tier": "Standard",
+                        "allow_blob_public_access": true,
+                        "blob_properties": [],
+                        "custom_domain": [],
+                        "enable_https_traffic_only": true,
+                        "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/diagd07a8864062ab024",
+                        "identity": [],
+                        "is_hns_enabled": false,
+                        "location": "eastus",
+                        "name": "diagd07a8864062ab024",
+                        "network_rules": [
+                            {
+                                "bypass": [
+                                    "AzureServices"
+                                ],
+                                "default_action": "Allow",
+                                "ip_rules": [],
+                                "virtual_network_subnet_ids": []
+                            }
+                        ],
+                        "primary_access_key": "PipFZL9VbQSU9gy4V7yI2FVJucZhOhumTL5/zuFIzNv5hpQJEbV4DGTOuC5/T5ryGKKtd6a0j8e3tQuytmfObg==",
+                        "primary_blob_connection_string": "DefaultEndpointsProtocol=https;BlobEndpoint=https://diagd07a8864062ab024.blob.core.windows.net/;AccountName=diagd07a8864062ab024;AccountKey=PipFZL9VbQSU9gy4V7yI2FVJucZhOhumTL5/zuFIzNv5hpQJEbV4DGTOuC5/T5ryGKKtd6a0j8e3tQuytmfObg==",
+                        "primary_blob_endpoint": "https://diagd07a8864062ab024.blob.core.windows.net/",
+                        "primary_blob_host": "diagd07a8864062ab024.blob.core.windows.net",
+                        "primary_connection_string": "DefaultEndpointsProtocol=https;AccountName=diagd07a8864062ab024;AccountKey=PipFZL9VbQSU9gy4V7yI2FVJucZhOhumTL5/zuFIzNv5hpQJEbV4DGTOuC5/T5ryGKKtd6a0j8e3tQuytmfObg==;EndpointSuffix=core.windows.net",
+                        "primary_dfs_endpoint": "https://diagd07a8864062ab024.dfs.core.windows.net/",
+                        "primary_dfs_host": "diagd07a8864062ab024.dfs.core.windows.net",
+                        "primary_file_endpoint": "https://diagd07a8864062ab024.file.core.windows.net/",
+                        "primary_file_host": "diagd07a8864062ab024.file.core.windows.net",
+                        "primary_location": "eastus",
+                        "primary_queue_endpoint": "https://diagd07a8864062ab024.queue.core.windows.net/",
+                        "primary_queue_host": "diagd07a8864062ab024.queue.core.windows.net",
+                        "primary_table_endpoint": "https://diagd07a8864062ab024.table.core.windows.net/",
+                        "primary_table_host": "diagd07a8864062ab024.table.core.windows.net",
+                        "primary_web_endpoint": "https://diagd07a8864062ab024.z13.web.core.windows.net/",
+                        "primary_web_host": "diagd07a8864062ab024.z13.web.core.windows.net",
+                        "queue_properties": [
+                            {
+                                "cors_rule": [],
+                                "hour_metrics": [
+                                    {
+                                        "enabled": true,
+                                        "include_apis": true,
+                                        "retention_policy_days": 7,
+                                        "version": "1.0"
+                                    }
+                                ],
+                                "logging": [
+                                    {
+                                        "delete": false,
+                                        "read": false,
+                                        "retention_policy_days": 0,
+                                        "version": "1.0",
+                                        "write": false
+                                    }
+                                ],
+                                "minute_metrics": [
+                                    {
+                                        "enabled": false,
+                                        "include_apis": false,
+                                        "retention_policy_days": 0,
+                                        "version": "1.0"
+                                    }
+                                ]
+                            }
+                        ],
+                        "resource_group_name": "myResourceGroup",
+                        "secondary_access_key": "6x0Z/qPiqqQqMmzFU2D0vK69Goq+tZY91aEmfjRWnPRsGiWkweaWnzGseuSjiR45s64/CZA2a7SL7zgL0f7Xrw==",
+                        "secondary_blob_connection_string": "",
+                        "secondary_blob_endpoint": null,
+                        "secondary_blob_host": null,
+                        "secondary_connection_string": "DefaultEndpointsProtocol=https;AccountName=diagd07a8864062ab024;AccountKey=6x0Z/qPiqqQqMmzFU2D0vK69Goq+tZY91aEmfjRWnPRsGiWkweaWnzGseuSjiR45s64/CZA2a7SL7zgL0f7Xrw==;EndpointSuffix=core.windows.net",
+                        "secondary_dfs_endpoint": null,
+                        "secondary_dfs_host": null,
+                        "secondary_file_endpoint": null,
+                        "secondary_file_host": null,
+                        "secondary_location": "",
+                        "secondary_queue_endpoint": null,
+                        "secondary_queue_host": null,
+                        "secondary_table_endpoint": null,
+                        "secondary_table_host": null,
+                        "secondary_web_endpoint": null,
+                        "secondary_web_host": null,
+                        "static_website": [],
+                        "tags": {
+                            "environment": "Terraform Demo"
+                        },
+                        "timeouts": null
+                    }
+                },
+                {
+                    "address": "azurerm_subnet.myterraformsubnet",
+                    "mode": "managed",
+                    "type": "azurerm_subnet",
+                    "name": "myterraformsubnet",
+                    "provider_name": "azurerm",
+                    "schema_version": 0,
+                    "values": {
+                        "address_prefix": "10.0.1.0/24",
+                        "address_prefixes": [
+                            "10.0.1.0/24"
+                        ],
+                        "delegation": [],
+                        "enforce_private_link_endpoint_network_policies": false,
+                        "enforce_private_link_service_network_policies": false,
+                        "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet",
+                        "name": "mySubnet",
+                        "resource_group_name": "myResourceGroup",
+                        "service_endpoints": [],
+                        "timeouts": null,
+                        "virtual_network_name": "myVnet"
+                    }
+                },
+                {
+                    "address": "azurerm_virtual_network.myterraformnetwork",
+                    "mode": "managed",
+                    "type": "azurerm_virtual_network",
+                    "name": "myterraformnetwork",
+                    "provider_name": "azurerm",
+                    "schema_version": 0,
+                    "values": {
+                        "address_space": [
+                            "10.0.0.0/16"
+                        ],
+                        "ddos_protection_plan": [],
+                        "dns_servers": [],
+                        "guid": "fa64d4e9-815b-49cd-a2e0-c51c1fc8bf73",
+                        "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet",
+                        "location": "eastus",
+                        "name": "myVnet",
+                        "resource_group_name": "myResourceGroup",
+                        "subnet": [
+                            {
+                                "address_prefix": "10.0.1.0/24",
+                                "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet",
+                                "name": "mySubnet",
+                                "security_group": ""
+                            }
+                        ],
+                        "tags": {
+                            "environment": "Terraform Demo"
+                        },
+                        "timeouts": null
+                    }
+                },
+                {
+                    "address": "random_id.randomId",
+                    "mode": "managed",
+                    "type": "random_id",
+                    "name": "randomId",
+                    "provider_name": "random",
+                    "schema_version": 0,
+                    "values": {
+                        "b64": "0HqIZAYqsCQ",
+                        "b64_std": "0HqIZAYqsCQ=",
+                        "b64_url": "0HqIZAYqsCQ",
+                        "byte_length": 8,
+                        "dec": "15022469470229278756",
+                        "hex": "d07a8864062ab024",
+                        "id": "0HqIZAYqsCQ",
+                        "keepers": {
+                            "resource_group": "myResourceGroup"
+                        },
+                        "prefix": null
+                    }
+                },
+                {
+                    "address": "tls_private_key.example_ssh",
+                    "mode": "managed",
+                    "type": "tls_private_key",
+                    "name": "example_ssh",
+                    "provider_name": "tls",
+                    "schema_version": 0,
+                    "values": {
+                        "algorithm": "RSA",
+                        "ecdsa_curve": "P224",
+                        "id": "f3780497ffd4c4151ba42525aeaef941c750396e",
+                        "private_key_pem": "-----BEGIN RSA PRIVATE KEY-----\n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\n-----END RSA PRIVATE KEY-----\n",
+                        "public_key_fingerprint_md5": "6e:71:1d:ba:a4:e1:88:0f:d8:6d:2b:4a:8d:4d:15:bb",
+                        "public_key_openssh": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                        "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAy7gga5Vdg9wK7FKXXPOv\nkiMa5+B5LPcelTebdKZNQVJHGlPOny5dbLZPY5+r8B0uR4kKVEH6geVoh3ADjFw2\nwvQwcKdcN6Avq2OsxY7XBBUUITMFl3f7HFHOdyfg9IQwhAn4fcOljofvJC8UPkhc\nlW0Grx6l6cil9UXRM5Hi6imM1qhxw7BDsi+Wwumy7r0m1B7CTPpc/DcOiSwERiVx\n0LT9gLlIz+MGU9Rv4sddUHsJi1w1gs1J0kAbEjAAlo9O3R1An+E/9e71XvWGUxfC\nFgy7Maf7+5lTRCaafNbfd1FH1LjjvOqFf+13+uMTgPdRO2DxpVF2m7sSdjSr38/H\nyLgYieCfN6NLL+BkkVcVIsnUBK/Wd0gWbqxH7Mvrw+fc9om/eHJQgRyasmAY6nc6\nQC7H9C+WHwhqE8S/SsUVAV3B+jZ4xm9tJpK9wv3mZfgrp7z4xY37al3/c3pFmNkz\nYCf46R9byA20KKKVo3O5uZiGvdCm8aEyEj2QZORfjBGTMxRJIttMavedGpkiElVH\naWdkTqZ195cOHee1/thaTZq2Jkh7YDoSo5dD6SozQvet6ZSdDmxXv0u5Bxu2g+ML\nnSCEXN3YyoX3G8MMAsyjVuwPS9h7Pdd1G/jdWjGOSv8spI+BU+qCY+kq4TK0klcU\nWrWUYqbIlij3ay+JFq1hZ90CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+                        "rsa_bits": 4096
+                    }
+                }
+            ]
+        }
+    },
+    "resource_changes": [
+        {
+            "address": "azurerm_linux_virtual_machine.myterraformvm[0]",
+            "mode": "managed",
+            "type": "azurerm_linux_virtual_machine",
+            "name": "myterraformvm",
+            "index": 0,
+            "provider_name": "azurerm",
+            "change": {
+                "actions": [
+                    "no-op"
+                ],
+                "before": {
+                    "additional_capabilities": [],
+                    "admin_password": null,
+                    "admin_ssh_key": [
+                        {
+                            "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                            "username": "azureuser"
+                        }
+                    ],
+                    "admin_username": "azureuser",
+                    "allow_extension_operations": true,
+                    "availability_set_id": "",
+                    "boot_diagnostics": [
+                        {
+                            "storage_account_uri": "https://diagd07a8864062ab024.blob.core.windows.net/"
+                        }
+                    ],
+                    "computer_name": "myvm",
+                    "custom_data": null,
+                    "dedicated_host_id": "",
+                    "disable_password_authentication": true,
+                    "eviction_policy": "",
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-0",
+                    "identity": [],
+                    "location": "eastus",
+                    "max_bid_price": -1,
+                    "name": "myVM-0",
+                    "network_interface_ids": [
+                        "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-0"
+                    ],
+                    "os_disk": [
+                        {
+                            "caching": "ReadWrite",
+                            "diff_disk_settings": [],
+                            "disk_encryption_set_id": "",
+                            "disk_size_gb": 30,
+                            "name": "myOsDisk-0",
+                            "storage_account_type": "Premium_LRS",
+                            "write_accelerator_enabled": false
+                        }
+                    ],
+                    "plan": [],
+                    "priority": "Regular",
+                    "private_ip_address": "10.0.1.5",
+                    "private_ip_addresses": [
+                        "10.0.1.5"
+                    ],
+                    "provision_vm_agent": true,
+                    "proximity_placement_group_id": "",
+                    "public_ip_address": "",
+                    "public_ip_addresses": [],
+                    "resource_group_name": "myResourceGroup",
+                    "secret": [],
+                    "size": "Standard_DS1_v2",
+                    "source_image_id": "",
+                    "source_image_reference": [
+                        {
+                            "offer": "UbuntuServer",
+                            "publisher": "Canonical",
+                            "sku": "16.04.0-LTS",
+                            "version": "latest"
+                        }
+                    ],
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null,
+                    "virtual_machine_id": "3b4c724a-2a15-4627-a6f2-faf611431bf4",
+                    "virtual_machine_scale_set_id": "",
+                    "zone": ""
+                },
+                "after": {
+                    "additional_capabilities": [],
+                    "admin_password": null,
+                    "admin_ssh_key": [
+                        {
+                            "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                            "username": "azureuser"
+                        }
+                    ],
+                    "admin_username": "azureuser",
+                    "allow_extension_operations": true,
+                    "availability_set_id": "",
+                    "boot_diagnostics": [
+                        {
+                            "storage_account_uri": "https://diagd07a8864062ab024.blob.core.windows.net/"
+                        }
+                    ],
+                    "computer_name": "myvm",
+                    "custom_data": null,
+                    "dedicated_host_id": "",
+                    "disable_password_authentication": true,
+                    "eviction_policy": "",
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-0",
+                    "identity": [],
+                    "location": "eastus",
+                    "max_bid_price": -1,
+                    "name": "myVM-0",
+                    "network_interface_ids": [
+                        "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-0"
+                    ],
+                    "os_disk": [
+                        {
+                            "caching": "ReadWrite",
+                            "diff_disk_settings": [],
+                            "disk_encryption_set_id": "",
+                            "disk_size_gb": 30,
+                            "name": "myOsDisk-0",
+                            "storage_account_type": "Premium_LRS",
+                            "write_accelerator_enabled": false
+                        }
+                    ],
+                    "plan": [],
+                    "priority": "Regular",
+                    "private_ip_address": "10.0.1.5",
+                    "private_ip_addresses": [
+                        "10.0.1.5"
+                    ],
+                    "provision_vm_agent": true,
+                    "proximity_placement_group_id": "",
+                    "public_ip_address": "",
+                    "public_ip_addresses": [],
+                    "resource_group_name": "myResourceGroup",
+                    "secret": [],
+                    "size": "Standard_DS1_v2",
+                    "source_image_id": "",
+                    "source_image_reference": [
+                        {
+                            "offer": "UbuntuServer",
+                            "publisher": "Canonical",
+                            "sku": "16.04.0-LTS",
+                            "version": "latest"
+                        }
+                    ],
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null,
+                    "virtual_machine_id": "3b4c724a-2a15-4627-a6f2-faf611431bf4",
+                    "virtual_machine_scale_set_id": "",
+                    "zone": ""
+                },
+                "after_unknown": {}
+            }
+        },
+        {
+            "address": "azurerm_linux_virtual_machine.myterraformvm[1]",
+            "mode": "managed",
+            "type": "azurerm_linux_virtual_machine",
+            "name": "myterraformvm",
+            "index": 1,
+            "provider_name": "azurerm",
+            "change": {
+                "actions": [
+                    "no-op"
+                ],
+                "before": {
+                    "additional_capabilities": [],
+                    "admin_password": null,
+                    "admin_ssh_key": [
+                        {
+                            "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                            "username": "azureuser"
+                        }
+                    ],
+                    "admin_username": "azureuser",
+                    "allow_extension_operations": true,
+                    "availability_set_id": "",
+                    "boot_diagnostics": [
+                        {
+                            "storage_account_uri": "https://diagd07a8864062ab024.blob.core.windows.net/"
+                        }
+                    ],
+                    "computer_name": "myvm",
+                    "custom_data": null,
+                    "dedicated_host_id": "",
+                    "disable_password_authentication": true,
+                    "eviction_policy": "",
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-1",
+                    "identity": [],
+                    "location": "eastus",
+                    "max_bid_price": -1,
+                    "name": "myVM-1",
+                    "network_interface_ids": [
+                        "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-1"
+                    ],
+                    "os_disk": [
+                        {
+                            "caching": "ReadWrite",
+                            "diff_disk_settings": [],
+                            "disk_encryption_set_id": "",
+                            "disk_size_gb": 30,
+                            "name": "myOsDisk-1",
+                            "storage_account_type": "Premium_LRS",
+                            "write_accelerator_enabled": false
+                        }
+                    ],
+                    "plan": [],
+                    "priority": "Regular",
+                    "private_ip_address": "10.0.1.6",
+                    "private_ip_addresses": [
+                        "10.0.1.6"
+                    ],
+                    "provision_vm_agent": true,
+                    "proximity_placement_group_id": "",
+                    "public_ip_address": "",
+                    "public_ip_addresses": [],
+                    "resource_group_name": "myResourceGroup",
+                    "secret": [],
+                    "size": "Standard_DS1_v2",
+                    "source_image_id": "",
+                    "source_image_reference": [
+                        {
+                            "offer": "UbuntuServer",
+                            "publisher": "Canonical",
+                            "sku": "16.04.0-LTS",
+                            "version": "latest"
+                        }
+                    ],
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null,
+                    "virtual_machine_id": "9695d5af-231e-4543-8c5a-a82d68c545cf",
+                    "virtual_machine_scale_set_id": "",
+                    "zone": ""
+                },
+                "after": {
+                    "additional_capabilities": [],
+                    "admin_password": null,
+                    "admin_ssh_key": [
+                        {
+                            "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                            "username": "azureuser"
+                        }
+                    ],
+                    "admin_username": "azureuser",
+                    "allow_extension_operations": true,
+                    "availability_set_id": "",
+                    "boot_diagnostics": [
+                        {
+                            "storage_account_uri": "https://diagd07a8864062ab024.blob.core.windows.net/"
+                        }
+                    ],
+                    "computer_name": "myvm",
+                    "custom_data": null,
+                    "dedicated_host_id": "",
+                    "disable_password_authentication": true,
+                    "eviction_policy": "",
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-1",
+                    "identity": [],
+                    "location": "eastus",
+                    "max_bid_price": -1,
+                    "name": "myVM-1",
+                    "network_interface_ids": [
+                        "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-1"
+                    ],
+                    "os_disk": [
+                        {
+                            "caching": "ReadWrite",
+                            "diff_disk_settings": [],
+                            "disk_encryption_set_id": "",
+                            "disk_size_gb": 30,
+                            "name": "myOsDisk-1",
+                            "storage_account_type": "Premium_LRS",
+                            "write_accelerator_enabled": false
+                        }
+                    ],
+                    "plan": [],
+                    "priority": "Regular",
+                    "private_ip_address": "10.0.1.6",
+                    "private_ip_addresses": [
+                        "10.0.1.6"
+                    ],
+                    "provision_vm_agent": true,
+                    "proximity_placement_group_id": "",
+                    "public_ip_address": "",
+                    "public_ip_addresses": [],
+                    "resource_group_name": "myResourceGroup",
+                    "secret": [],
+                    "size": "Standard_DS1_v2",
+                    "source_image_id": "",
+                    "source_image_reference": [
+                        {
+                            "offer": "UbuntuServer",
+                            "publisher": "Canonical",
+                            "sku": "16.04.0-LTS",
+                            "version": "latest"
+                        }
+                    ],
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null,
+                    "virtual_machine_id": "9695d5af-231e-4543-8c5a-a82d68c545cf",
+                    "virtual_machine_scale_set_id": "",
+                    "zone": ""
+                },
+                "after_unknown": {}
+            }
+        },
+        {
+            "address": "azurerm_linux_virtual_machine.myterraformvm[2]",
+            "mode": "managed",
+            "type": "azurerm_linux_virtual_machine",
+            "name": "myterraformvm",
+            "index": 2,
+            "provider_name": "azurerm",
+            "change": {
+                "actions": [
+                    "delete"
+                ],
+                "before": {
+                    "additional_capabilities": [],
+                    "admin_password": null,
+                    "admin_ssh_key": [
+                        {
+                            "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                            "username": "azureuser"
+                        }
+                    ],
+                    "admin_username": "azureuser",
+                    "allow_extension_operations": true,
+                    "availability_set_id": "",
+                    "boot_diagnostics": [
+                        {
+                            "storage_account_uri": "https://diagd07a8864062ab024.blob.core.windows.net/"
+                        }
+                    ],
+                    "computer_name": "myvm",
+                    "custom_data": null,
+                    "dedicated_host_id": "",
+                    "disable_password_authentication": true,
+                    "eviction_policy": "",
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-2",
+                    "identity": [],
+                    "location": "eastus",
+                    "max_bid_price": -1,
+                    "name": "myVM-2",
+                    "network_interface_ids": [
+                        "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-2"
+                    ],
+                    "os_disk": [
+                        {
+                            "caching": "ReadWrite",
+                            "diff_disk_settings": [],
+                            "disk_encryption_set_id": "",
+                            "disk_size_gb": 30,
+                            "name": "myOsDisk-2",
+                            "storage_account_type": "Premium_LRS",
+                            "write_accelerator_enabled": false
+                        }
+                    ],
+                    "plan": [],
+                    "priority": "Regular",
+                    "private_ip_address": "10.0.1.4",
+                    "private_ip_addresses": [
+                        "10.0.1.4"
+                    ],
+                    "provision_vm_agent": true,
+                    "proximity_placement_group_id": "",
+                    "public_ip_address": "",
+                    "public_ip_addresses": [],
+                    "resource_group_name": "myResourceGroup",
+                    "secret": [],
+                    "size": "Standard_DS1_v2",
+                    "source_image_id": "",
+                    "source_image_reference": [
+                        {
+                            "offer": "UbuntuServer",
+                            "publisher": "Canonical",
+                            "sku": "16.04.0-LTS",
+                            "version": "latest"
+                        }
+                    ],
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null,
+                    "virtual_machine_id": "98d00449-3a5f-49a5-9d60-4489d7dd4c51",
+                    "virtual_machine_scale_set_id": "",
+                    "zone": ""
+                },
+                "after": null,
+                "after_unknown": {}
+            }
+        },
+        {
+            "address": "azurerm_network_interface.myterraformnic[0]",
+            "mode": "managed",
+            "type": "azurerm_network_interface",
+            "name": "myterraformnic",
+            "index": 0,
+            "provider_name": "azurerm",
+            "change": {
+                "actions": [
+                    "no-op"
+                ],
+                "before": {
+                    "applied_dns_servers": [],
+                    "dns_servers": [],
+                    "enable_accelerated_networking": false,
+                    "enable_ip_forwarding": false,
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-0",
+                    "internal_dns_name_label": "",
+                    "internal_domain_name_suffix": "3hkgj4s1qhgutixayuob5sf5od.bx.internal.cloudapp.net",
+                    "ip_configuration": [
+                        {
+                            "name": "myNicConfiguration-0",
+                            "primary": true,
+                            "private_ip_address": "10.0.1.5",
+                            "private_ip_address_allocation": "Dynamic",
+                            "private_ip_address_version": "IPv4",
+                            "public_ip_address_id": "",
+                            "subnet_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet"
+                        }
+                    ],
+                    "location": "eastus",
+                    "mac_address": "00-0D-3A-9E-4A-C1",
+                    "name": "myNIC-0",
+                    "private_ip_address": "10.0.1.5",
+                    "private_ip_addresses": [
+                        "10.0.1.5"
+                    ],
+                    "resource_group_name": "myResourceGroup",
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null,
+                    "virtual_machine_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-0"
+                },
+                "after": {
+                    "applied_dns_servers": [],
+                    "dns_servers": [],
+                    "enable_accelerated_networking": false,
+                    "enable_ip_forwarding": false,
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-0",
+                    "internal_dns_name_label": "",
+                    "internal_domain_name_suffix": "3hkgj4s1qhgutixayuob5sf5od.bx.internal.cloudapp.net",
+                    "ip_configuration": [
+                        {
+                            "name": "myNicConfiguration-0",
+                            "primary": true,
+                            "private_ip_address": "10.0.1.5",
+                            "private_ip_address_allocation": "Dynamic",
+                            "private_ip_address_version": "IPv4",
+                            "public_ip_address_id": "",
+                            "subnet_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet"
+                        }
+                    ],
+                    "location": "eastus",
+                    "mac_address": "00-0D-3A-9E-4A-C1",
+                    "name": "myNIC-0",
+                    "private_ip_address": "10.0.1.5",
+                    "private_ip_addresses": [
+                        "10.0.1.5"
+                    ],
+                    "resource_group_name": "myResourceGroup",
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null,
+                    "virtual_machine_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-0"
+                },
+                "after_unknown": {}
+            }
+        },
+        {
+            "address": "azurerm_network_interface.myterraformnic[1]",
+            "mode": "managed",
+            "type": "azurerm_network_interface",
+            "name": "myterraformnic",
+            "index": 1,
+            "provider_name": "azurerm",
+            "change": {
+                "actions": [
+                    "no-op"
+                ],
+                "before": {
+                    "applied_dns_servers": [],
+                    "dns_servers": [],
+                    "enable_accelerated_networking": false,
+                    "enable_ip_forwarding": false,
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-1",
+                    "internal_dns_name_label": "",
+                    "internal_domain_name_suffix": "3hkgj4s1qhgutixayuob5sf5od.bx.internal.cloudapp.net",
+                    "ip_configuration": [
+                        {
+                            "name": "myNicConfiguration-1",
+                            "primary": true,
+                            "private_ip_address": "10.0.1.6",
+                            "private_ip_address_allocation": "Dynamic",
+                            "private_ip_address_version": "IPv4",
+                            "public_ip_address_id": "",
+                            "subnet_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet"
+                        }
+                    ],
+                    "location": "eastus",
+                    "mac_address": "00-0D-3A-9E-4D-41",
+                    "name": "myNIC-1",
+                    "private_ip_address": "10.0.1.6",
+                    "private_ip_addresses": [
+                        "10.0.1.6"
+                    ],
+                    "resource_group_name": "myResourceGroup",
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null,
+                    "virtual_machine_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-1"
+                },
+                "after": {
+                    "applied_dns_servers": [],
+                    "dns_servers": [],
+                    "enable_accelerated_networking": false,
+                    "enable_ip_forwarding": false,
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-1",
+                    "internal_dns_name_label": "",
+                    "internal_domain_name_suffix": "3hkgj4s1qhgutixayuob5sf5od.bx.internal.cloudapp.net",
+                    "ip_configuration": [
+                        {
+                            "name": "myNicConfiguration-1",
+                            "primary": true,
+                            "private_ip_address": "10.0.1.6",
+                            "private_ip_address_allocation": "Dynamic",
+                            "private_ip_address_version": "IPv4",
+                            "public_ip_address_id": "",
+                            "subnet_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet"
+                        }
+                    ],
+                    "location": "eastus",
+                    "mac_address": "00-0D-3A-9E-4D-41",
+                    "name": "myNIC-1",
+                    "private_ip_address": "10.0.1.6",
+                    "private_ip_addresses": [
+                        "10.0.1.6"
+                    ],
+                    "resource_group_name": "myResourceGroup",
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null,
+                    "virtual_machine_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-1"
+                },
+                "after_unknown": {}
+            }
+        },
+        {
+            "address": "azurerm_network_interface.myterraformnic[2]",
+            "mode": "managed",
+            "type": "azurerm_network_interface",
+            "name": "myterraformnic",
+            "index": 2,
+            "provider_name": "azurerm",
+            "change": {
+                "actions": [
+                    "delete"
+                ],
+                "before": {
+                    "applied_dns_servers": [],
+                    "dns_servers": [],
+                    "enable_accelerated_networking": false,
+                    "enable_ip_forwarding": false,
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-2",
+                    "internal_dns_name_label": "",
+                    "internal_domain_name_suffix": "3hkgj4s1qhgutixayuob5sf5od.bx.internal.cloudapp.net",
+                    "ip_configuration": [
+                        {
+                            "name": "myNicConfiguration-2",
+                            "primary": true,
+                            "private_ip_address": "10.0.1.4",
+                            "private_ip_address_allocation": "Dynamic",
+                            "private_ip_address_version": "IPv4",
+                            "public_ip_address_id": "",
+                            "subnet_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet"
+                        }
+                    ],
+                    "location": "eastus",
+                    "mac_address": "00-0D-3A-9E-4F-05",
+                    "name": "myNIC-2",
+                    "private_ip_address": "10.0.1.4",
+                    "private_ip_addresses": [
+                        "10.0.1.4"
+                    ],
+                    "resource_group_name": "myResourceGroup",
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null,
+                    "virtual_machine_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-2"
+                },
+                "after": null,
+                "after_unknown": {}
+            }
+        },
+        {
+            "address": "azurerm_network_security_group.myterraformnsg",
+            "mode": "managed",
+            "type": "azurerm_network_security_group",
+            "name": "myterraformnsg",
+            "provider_name": "azurerm",
+            "change": {
+                "actions": [
+                    "no-op"
+                ],
+                "before": {
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/myNetworkSecurityGroup",
+                    "location": "eastus",
+                    "name": "myNetworkSecurityGroup",
+                    "resource_group_name": "myResourceGroup",
+                    "security_rule": [
+                        {
+                            "access": "Allow",
+                            "description": "",
+                            "destination_address_prefix": "*",
+                            "destination_address_prefixes": [],
+                            "destination_application_security_group_ids": [],
+                            "destination_port_range": "22",
+                            "destination_port_ranges": [],
+                            "direction": "Inbound",
+                            "name": "SSH",
+                            "priority": 1001,
+                            "protocol": "Tcp",
+                            "source_address_prefix": "*",
+                            "source_address_prefixes": [],
+                            "source_application_security_group_ids": [],
+                            "source_port_range": "*",
+                            "source_port_ranges": []
+                        }
+                    ],
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null
+                },
+                "after": {
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/myNetworkSecurityGroup",
+                    "location": "eastus",
+                    "name": "myNetworkSecurityGroup",
+                    "resource_group_name": "myResourceGroup",
+                    "security_rule": [
+                        {
+                            "access": "Allow",
+                            "description": "",
+                            "destination_address_prefix": "*",
+                            "destination_address_prefixes": [],
+                            "destination_application_security_group_ids": [],
+                            "destination_port_range": "22",
+                            "destination_port_ranges": [],
+                            "direction": "Inbound",
+                            "name": "SSH",
+                            "priority": 1001,
+                            "protocol": "Tcp",
+                            "source_address_prefix": "*",
+                            "source_address_prefixes": [],
+                            "source_application_security_group_ids": [],
+                            "source_port_range": "*",
+                            "source_port_ranges": []
+                        }
+                    ],
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null
+                },
+                "after_unknown": {}
+            }
+        },
+        {
+            "address": "azurerm_resource_group.myterraformgroup",
+            "mode": "managed",
+            "type": "azurerm_resource_group",
+            "name": "myterraformgroup",
+            "provider_name": "azurerm",
+            "change": {
+                "actions": [
+                    "no-op"
+                ],
+                "before": {
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup",
+                    "location": "eastus",
+                    "name": "myResourceGroup",
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null
+                },
+                "after": {
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup",
+                    "location": "eastus",
+                    "name": "myResourceGroup",
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null
+                },
+                "after_unknown": {}
+            }
+        },
+        {
+            "address": "azurerm_storage_account.mystorageaccount",
+            "mode": "managed",
+            "type": "azurerm_storage_account",
+            "name": "mystorageaccount",
+            "provider_name": "azurerm",
+            "change": {
+                "actions": [
+                    "no-op"
+                ],
+                "before": {
+                    "access_tier": "Hot",
+                    "account_kind": "StorageV2",
+                    "account_replication_type": "LRS",
+                    "account_tier": "Standard",
+                    "allow_blob_public_access": true,
+                    "blob_properties": [],
+                    "custom_domain": [],
+                    "enable_https_traffic_only": true,
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/diagd07a8864062ab024",
+                    "identity": [],
+                    "is_hns_enabled": false,
+                    "location": "eastus",
+                    "name": "diagd07a8864062ab024",
+                    "network_rules": [
+                        {
+                            "bypass": [
+                                "AzureServices"
+                            ],
+                            "default_action": "Allow",
+                            "ip_rules": [],
+                            "virtual_network_subnet_ids": []
+                        }
+                    ],
+                    "primary_access_key": "PipFZL9VbQSU9gy4V7yI2FVJucZhOhumTL5/zuFIzNv5hpQJEbV4DGTOuC5/T5ryGKKtd6a0j8e3tQuytmfObg==",
+                    "primary_blob_connection_string": "DefaultEndpointsProtocol=https;BlobEndpoint=https://diagd07a8864062ab024.blob.core.windows.net/;AccountName=diagd07a8864062ab024;AccountKey=PipFZL9VbQSU9gy4V7yI2FVJucZhOhumTL5/zuFIzNv5hpQJEbV4DGTOuC5/T5ryGKKtd6a0j8e3tQuytmfObg==",
+                    "primary_blob_endpoint": "https://diagd07a8864062ab024.blob.core.windows.net/",
+                    "primary_blob_host": "diagd07a8864062ab024.blob.core.windows.net",
+                    "primary_connection_string": "DefaultEndpointsProtocol=https;AccountName=diagd07a8864062ab024;AccountKey=PipFZL9VbQSU9gy4V7yI2FVJucZhOhumTL5/zuFIzNv5hpQJEbV4DGTOuC5/T5ryGKKtd6a0j8e3tQuytmfObg==;EndpointSuffix=core.windows.net",
+                    "primary_dfs_endpoint": "https://diagd07a8864062ab024.dfs.core.windows.net/",
+                    "primary_dfs_host": "diagd07a8864062ab024.dfs.core.windows.net",
+                    "primary_file_endpoint": "https://diagd07a8864062ab024.file.core.windows.net/",
+                    "primary_file_host": "diagd07a8864062ab024.file.core.windows.net",
+                    "primary_location": "eastus",
+                    "primary_queue_endpoint": "https://diagd07a8864062ab024.queue.core.windows.net/",
+                    "primary_queue_host": "diagd07a8864062ab024.queue.core.windows.net",
+                    "primary_table_endpoint": "https://diagd07a8864062ab024.table.core.windows.net/",
+                    "primary_table_host": "diagd07a8864062ab024.table.core.windows.net",
+                    "primary_web_endpoint": "https://diagd07a8864062ab024.z13.web.core.windows.net/",
+                    "primary_web_host": "diagd07a8864062ab024.z13.web.core.windows.net",
+                    "queue_properties": [
+                        {
+                            "cors_rule": [],
+                            "hour_metrics": [
+                                {
+                                    "enabled": true,
+                                    "include_apis": true,
+                                    "retention_policy_days": 7,
+                                    "version": "1.0"
+                                }
+                            ],
+                            "logging": [
+                                {
+                                    "delete": false,
+                                    "read": false,
+                                    "retention_policy_days": 0,
+                                    "version": "1.0",
+                                    "write": false
+                                }
+                            ],
+                            "minute_metrics": [
+                                {
+                                    "enabled": false,
+                                    "include_apis": false,
+                                    "retention_policy_days": 0,
+                                    "version": "1.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "resource_group_name": "myResourceGroup",
+                    "secondary_access_key": "6x0Z/qPiqqQqMmzFU2D0vK69Goq+tZY91aEmfjRWnPRsGiWkweaWnzGseuSjiR45s64/CZA2a7SL7zgL0f7Xrw==",
+                    "secondary_blob_connection_string": "",
+                    "secondary_blob_endpoint": null,
+                    "secondary_blob_host": null,
+                    "secondary_connection_string": "DefaultEndpointsProtocol=https;AccountName=diagd07a8864062ab024;AccountKey=6x0Z/qPiqqQqMmzFU2D0vK69Goq+tZY91aEmfjRWnPRsGiWkweaWnzGseuSjiR45s64/CZA2a7SL7zgL0f7Xrw==;EndpointSuffix=core.windows.net",
+                    "secondary_dfs_endpoint": null,
+                    "secondary_dfs_host": null,
+                    "secondary_file_endpoint": null,
+                    "secondary_file_host": null,
+                    "secondary_location": "",
+                    "secondary_queue_endpoint": null,
+                    "secondary_queue_host": null,
+                    "secondary_table_endpoint": null,
+                    "secondary_table_host": null,
+                    "secondary_web_endpoint": null,
+                    "secondary_web_host": null,
+                    "static_website": [],
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null
+                },
+                "after": {
+                    "access_tier": "Hot",
+                    "account_kind": "StorageV2",
+                    "account_replication_type": "LRS",
+                    "account_tier": "Standard",
+                    "allow_blob_public_access": true,
+                    "blob_properties": [],
+                    "custom_domain": [],
+                    "enable_https_traffic_only": true,
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/diagd07a8864062ab024",
+                    "identity": [],
+                    "is_hns_enabled": false,
+                    "location": "eastus",
+                    "name": "diagd07a8864062ab024",
+                    "network_rules": [
+                        {
+                            "bypass": [
+                                "AzureServices"
+                            ],
+                            "default_action": "Allow",
+                            "ip_rules": [],
+                            "virtual_network_subnet_ids": []
+                        }
+                    ],
+                    "primary_access_key": "PipFZL9VbQSU9gy4V7yI2FVJucZhOhumTL5/zuFIzNv5hpQJEbV4DGTOuC5/T5ryGKKtd6a0j8e3tQuytmfObg==",
+                    "primary_blob_connection_string": "DefaultEndpointsProtocol=https;BlobEndpoint=https://diagd07a8864062ab024.blob.core.windows.net/;AccountName=diagd07a8864062ab024;AccountKey=PipFZL9VbQSU9gy4V7yI2FVJucZhOhumTL5/zuFIzNv5hpQJEbV4DGTOuC5/T5ryGKKtd6a0j8e3tQuytmfObg==",
+                    "primary_blob_endpoint": "https://diagd07a8864062ab024.blob.core.windows.net/",
+                    "primary_blob_host": "diagd07a8864062ab024.blob.core.windows.net",
+                    "primary_connection_string": "DefaultEndpointsProtocol=https;AccountName=diagd07a8864062ab024;AccountKey=PipFZL9VbQSU9gy4V7yI2FVJucZhOhumTL5/zuFIzNv5hpQJEbV4DGTOuC5/T5ryGKKtd6a0j8e3tQuytmfObg==;EndpointSuffix=core.windows.net",
+                    "primary_dfs_endpoint": "https://diagd07a8864062ab024.dfs.core.windows.net/",
+                    "primary_dfs_host": "diagd07a8864062ab024.dfs.core.windows.net",
+                    "primary_file_endpoint": "https://diagd07a8864062ab024.file.core.windows.net/",
+                    "primary_file_host": "diagd07a8864062ab024.file.core.windows.net",
+                    "primary_location": "eastus",
+                    "primary_queue_endpoint": "https://diagd07a8864062ab024.queue.core.windows.net/",
+                    "primary_queue_host": "diagd07a8864062ab024.queue.core.windows.net",
+                    "primary_table_endpoint": "https://diagd07a8864062ab024.table.core.windows.net/",
+                    "primary_table_host": "diagd07a8864062ab024.table.core.windows.net",
+                    "primary_web_endpoint": "https://diagd07a8864062ab024.z13.web.core.windows.net/",
+                    "primary_web_host": "diagd07a8864062ab024.z13.web.core.windows.net",
+                    "queue_properties": [
+                        {
+                            "cors_rule": [],
+                            "hour_metrics": [
+                                {
+                                    "enabled": true,
+                                    "include_apis": true,
+                                    "retention_policy_days": 7,
+                                    "version": "1.0"
+                                }
+                            ],
+                            "logging": [
+                                {
+                                    "delete": false,
+                                    "read": false,
+                                    "retention_policy_days": 0,
+                                    "version": "1.0",
+                                    "write": false
+                                }
+                            ],
+                            "minute_metrics": [
+                                {
+                                    "enabled": false,
+                                    "include_apis": false,
+                                    "retention_policy_days": 0,
+                                    "version": "1.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "resource_group_name": "myResourceGroup",
+                    "secondary_access_key": "6x0Z/qPiqqQqMmzFU2D0vK69Goq+tZY91aEmfjRWnPRsGiWkweaWnzGseuSjiR45s64/CZA2a7SL7zgL0f7Xrw==",
+                    "secondary_blob_connection_string": "",
+                    "secondary_blob_endpoint": null,
+                    "secondary_blob_host": null,
+                    "secondary_connection_string": "DefaultEndpointsProtocol=https;AccountName=diagd07a8864062ab024;AccountKey=6x0Z/qPiqqQqMmzFU2D0vK69Goq+tZY91aEmfjRWnPRsGiWkweaWnzGseuSjiR45s64/CZA2a7SL7zgL0f7Xrw==;EndpointSuffix=core.windows.net",
+                    "secondary_dfs_endpoint": null,
+                    "secondary_dfs_host": null,
+                    "secondary_file_endpoint": null,
+                    "secondary_file_host": null,
+                    "secondary_location": "",
+                    "secondary_queue_endpoint": null,
+                    "secondary_queue_host": null,
+                    "secondary_table_endpoint": null,
+                    "secondary_table_host": null,
+                    "secondary_web_endpoint": null,
+                    "secondary_web_host": null,
+                    "static_website": [],
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null
+                },
+                "after_unknown": {}
+            }
+        },
+        {
+            "address": "azurerm_subnet.myterraformsubnet",
+            "mode": "managed",
+            "type": "azurerm_subnet",
+            "name": "myterraformsubnet",
+            "provider_name": "azurerm",
+            "change": {
+                "actions": [
+                    "no-op"
+                ],
+                "before": {
+                    "address_prefix": "10.0.1.0/24",
+                    "address_prefixes": [
+                        "10.0.1.0/24"
+                    ],
+                    "delegation": [],
+                    "enforce_private_link_endpoint_network_policies": false,
+                    "enforce_private_link_service_network_policies": false,
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet",
+                    "name": "mySubnet",
+                    "resource_group_name": "myResourceGroup",
+                    "service_endpoints": [],
+                    "timeouts": null,
+                    "virtual_network_name": "myVnet"
+                },
+                "after": {
+                    "address_prefix": "10.0.1.0/24",
+                    "address_prefixes": [
+                        "10.0.1.0/24"
+                    ],
+                    "delegation": [],
+                    "enforce_private_link_endpoint_network_policies": false,
+                    "enforce_private_link_service_network_policies": false,
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet",
+                    "name": "mySubnet",
+                    "resource_group_name": "myResourceGroup",
+                    "service_endpoints": [],
+                    "timeouts": null,
+                    "virtual_network_name": "myVnet"
+                },
+                "after_unknown": {}
+            }
+        },
+        {
+            "address": "azurerm_virtual_network.myterraformnetwork",
+            "mode": "managed",
+            "type": "azurerm_virtual_network",
+            "name": "myterraformnetwork",
+            "provider_name": "azurerm",
+            "change": {
+                "actions": [
+                    "no-op"
+                ],
+                "before": {
+                    "address_space": [
+                        "10.0.0.0/16"
+                    ],
+                    "ddos_protection_plan": [],
+                    "dns_servers": [],
+                    "guid": "fa64d4e9-815b-49cd-a2e0-c51c1fc8bf73",
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet",
+                    "location": "eastus",
+                    "name": "myVnet",
+                    "resource_group_name": "myResourceGroup",
+                    "subnet": [
+                        {
+                            "address_prefix": "10.0.1.0/24",
+                            "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet",
+                            "name": "mySubnet",
+                            "security_group": ""
+                        }
+                    ],
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null
+                },
+                "after": {
+                    "address_space": [
+                        "10.0.0.0/16"
+                    ],
+                    "ddos_protection_plan": [],
+                    "dns_servers": [],
+                    "guid": "fa64d4e9-815b-49cd-a2e0-c51c1fc8bf73",
+                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet",
+                    "location": "eastus",
+                    "name": "myVnet",
+                    "resource_group_name": "myResourceGroup",
+                    "subnet": [
+                        {
+                            "address_prefix": "10.0.1.0/24",
+                            "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet",
+                            "name": "mySubnet",
+                            "security_group": ""
+                        }
+                    ],
+                    "tags": {
+                        "environment": "Terraform Demo"
+                    },
+                    "timeouts": null
+                },
+                "after_unknown": {}
+            }
+        },
+        {
+            "address": "random_id.randomId",
+            "mode": "managed",
+            "type": "random_id",
+            "name": "randomId",
+            "provider_name": "random",
+            "change": {
+                "actions": [
+                    "no-op"
+                ],
+                "before": {
+                    "b64": "0HqIZAYqsCQ",
+                    "b64_std": "0HqIZAYqsCQ=",
+                    "b64_url": "0HqIZAYqsCQ",
+                    "byte_length": 8,
+                    "dec": "15022469470229278756",
+                    "hex": "d07a8864062ab024",
+                    "id": "0HqIZAYqsCQ",
+                    "keepers": {
+                        "resource_group": "myResourceGroup"
+                    },
+                    "prefix": null
+                },
+                "after": {
+                    "b64": "0HqIZAYqsCQ",
+                    "b64_std": "0HqIZAYqsCQ=",
+                    "b64_url": "0HqIZAYqsCQ",
+                    "byte_length": 8,
+                    "dec": "15022469470229278756",
+                    "hex": "d07a8864062ab024",
+                    "id": "0HqIZAYqsCQ",
+                    "keepers": {
+                        "resource_group": "myResourceGroup"
+                    },
+                    "prefix": null
+                },
+                "after_unknown": {}
+            }
+        },
+        {
+            "address": "tls_private_key.example_ssh",
+            "mode": "managed",
+            "type": "tls_private_key",
+            "name": "example_ssh",
+            "provider_name": "tls",
+            "change": {
+                "actions": [
+                    "no-op"
+                ],
+                "before": {
+                    "algorithm": "RSA",
+                    "ecdsa_curve": "P224",
+                    "id": "f3780497ffd4c4151ba42525aeaef941c750396e",
+                    "private_key_pem": "-----BEGIN RSA PRIVATE KEY-----\n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\n-----END RSA PRIVATE KEY-----\n",
+                    "public_key_fingerprint_md5": "6e:71:1d:ba:a4:e1:88:0f:d8:6d:2b:4a:8d:4d:15:bb",
+                    "public_key_openssh": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                    "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAy7gga5Vdg9wK7FKXXPOv\nkiMa5+B5LPcelTebdKZNQVJHGlPOny5dbLZPY5+r8B0uR4kKVEH6geVoh3ADjFw2\nwvQwcKdcN6Avq2OsxY7XBBUUITMFl3f7HFHOdyfg9IQwhAn4fcOljofvJC8UPkhc\nlW0Grx6l6cil9UXRM5Hi6imM1qhxw7BDsi+Wwumy7r0m1B7CTPpc/DcOiSwERiVx\n0LT9gLlIz+MGU9Rv4sddUHsJi1w1gs1J0kAbEjAAlo9O3R1An+E/9e71XvWGUxfC\nFgy7Maf7+5lTRCaafNbfd1FH1LjjvOqFf+13+uMTgPdRO2DxpVF2m7sSdjSr38/H\nyLgYieCfN6NLL+BkkVcVIsnUBK/Wd0gWbqxH7Mvrw+fc9om/eHJQgRyasmAY6nc6\nQC7H9C+WHwhqE8S/SsUVAV3B+jZ4xm9tJpK9wv3mZfgrp7z4xY37al3/c3pFmNkz\nYCf46R9byA20KKKVo3O5uZiGvdCm8aEyEj2QZORfjBGTMxRJIttMavedGpkiElVH\naWdkTqZ195cOHee1/thaTZq2Jkh7YDoSo5dD6SozQvet6ZSdDmxXv0u5Bxu2g+ML\nnSCEXN3YyoX3G8MMAsyjVuwPS9h7Pdd1G/jdWjGOSv8spI+BU+qCY+kq4TK0klcU\nWrWUYqbIlij3ay+JFq1hZ90CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+                    "rsa_bits": 4096
+                },
+                "after": {
+                    "algorithm": "RSA",
+                    "ecdsa_curve": "P224",
+                    "id": "f3780497ffd4c4151ba42525aeaef941c750396e",
+                    "private_key_pem": "-----BEGIN RSA PRIVATE KEY-----\n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\n-----END RSA PRIVATE KEY-----\n",
+                    "public_key_fingerprint_md5": "6e:71:1d:ba:a4:e1:88:0f:d8:6d:2b:4a:8d:4d:15:bb",
+                    "public_key_openssh": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                    "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAy7gga5Vdg9wK7FKXXPOv\nkiMa5+B5LPcelTebdKZNQVJHGlPOny5dbLZPY5+r8B0uR4kKVEH6geVoh3ADjFw2\nwvQwcKdcN6Avq2OsxY7XBBUUITMFl3f7HFHOdyfg9IQwhAn4fcOljofvJC8UPkhc\nlW0Grx6l6cil9UXRM5Hi6imM1qhxw7BDsi+Wwumy7r0m1B7CTPpc/DcOiSwERiVx\n0LT9gLlIz+MGU9Rv4sddUHsJi1w1gs1J0kAbEjAAlo9O3R1An+E/9e71XvWGUxfC\nFgy7Maf7+5lTRCaafNbfd1FH1LjjvOqFf+13+uMTgPdRO2DxpVF2m7sSdjSr38/H\nyLgYieCfN6NLL+BkkVcVIsnUBK/Wd0gWbqxH7Mvrw+fc9om/eHJQgRyasmAY6nc6\nQC7H9C+WHwhqE8S/SsUVAV3B+jZ4xm9tJpK9wv3mZfgrp7z4xY37al3/c3pFmNkz\nYCf46R9byA20KKKVo3O5uZiGvdCm8aEyEj2QZORfjBGTMxRJIttMavedGpkiElVH\naWdkTqZ195cOHee1/thaTZq2Jkh7YDoSo5dD6SozQvet6ZSdDmxXv0u5Bxu2g+ML\nnSCEXN3YyoX3G8MMAsyjVuwPS9h7Pdd1G/jdWjGOSv8spI+BU+qCY+kq4TK0klcU\nWrWUYqbIlij3ay+JFq1hZ90CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+                    "rsa_bits": 4096
+                },
+                "after_unknown": {}
+            }
+        }
+    ],
+    "output_changes": {
+        "tls_private_key": {
+            "actions": [
+                "create"
+            ],
+            "before": null,
+            "after": "-----BEGIN RSA PRIVATE KEY-----\n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\n-----END RSA PRIVATE KEY-----\n",
+            "after_unknown": false
+        }
+    },
+    "prior_state": {
+        "format_version": "0.1",
+        "terraform_version": "0.12.28",
+        "values": {
+            "outputs": {
+                "tls_private_key": {
+                    "sensitive": false,
+                    "value": "-----BEGIN RSA PRIVATE KEY-----\n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\n-----END RSA PRIVATE KEY-----\n"
+                }
+            },
+            "root_module": {
+                "resources": [
+                    {
+                        "address": "azurerm_linux_virtual_machine.myterraformvm",
+                        "mode": "managed",
+                        "type": "azurerm_linux_virtual_machine",
+                        "name": "myterraformvm",
+                        "index": 0,
+                        "provider_name": "azurerm",
+                        "schema_version": 0,
+                        "values": {
+                            "additional_capabilities": [],
+                            "admin_password": null,
+                            "admin_ssh_key": [
+                                {
+                                    "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                                    "username": "azureuser"
+                                }
+                            ],
+                            "admin_username": "azureuser",
+                            "allow_extension_operations": true,
+                            "availability_set_id": "",
+                            "boot_diagnostics": [
+                                {
+                                    "storage_account_uri": "https://diagd07a8864062ab024.blob.core.windows.net/"
+                                }
+                            ],
+                            "computer_name": "myvm",
+                            "custom_data": null,
+                            "dedicated_host_id": "",
+                            "disable_password_authentication": true,
+                            "eviction_policy": "",
+                            "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-0",
+                            "identity": [],
+                            "location": "eastus",
+                            "max_bid_price": -1,
+                            "name": "myVM-0",
+                            "network_interface_ids": [
+                                "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-0"
+                            ],
+                            "os_disk": [
+                                {
+                                    "caching": "ReadWrite",
+                                    "diff_disk_settings": [],
+                                    "disk_encryption_set_id": "",
+                                    "disk_size_gb": 30,
+                                    "name": "myOsDisk-0",
+                                    "storage_account_type": "Premium_LRS",
+                                    "write_accelerator_enabled": false
+                                }
+                            ],
+                            "plan": [],
+                            "priority": "Regular",
+                            "private_ip_address": "10.0.1.5",
+                            "private_ip_addresses": [
+                                "10.0.1.5"
+                            ],
+                            "provision_vm_agent": true,
+                            "proximity_placement_group_id": "",
+                            "public_ip_address": "",
+                            "public_ip_addresses": [],
+                            "resource_group_name": "myResourceGroup",
+                            "secret": [],
+                            "size": "Standard_DS1_v2",
+                            "source_image_id": "",
+                            "source_image_reference": [
+                                {
+                                    "offer": "UbuntuServer",
+                                    "publisher": "Canonical",
+                                    "sku": "16.04.0-LTS",
+                                    "version": "latest"
+                                }
+                            ],
+                            "tags": {
+                                "environment": "Terraform Demo"
+                            },
+                            "timeouts": null,
+                            "virtual_machine_id": "3b4c724a-2a15-4627-a6f2-faf611431bf4",
+                            "virtual_machine_scale_set_id": "",
+                            "zone": ""
+                        },
+                        "depends_on": [
+                            "azurerm_network_interface.myterraformnic",
+                            "azurerm_resource_group.myterraformgroup",
+                            "azurerm_storage_account.mystorageaccount",
+                            "azurerm_subnet.myterraformsubnet",
+                            "azurerm_virtual_network.myterraformnetwork",
+                            "random_id.randomId",
+                            "tls_private_key.example_ssh"
+                        ]
+                    },
+                    {
+                        "address": "azurerm_linux_virtual_machine.myterraformvm",
+                        "mode": "managed",
+                        "type": "azurerm_linux_virtual_machine",
+                        "name": "myterraformvm",
+                        "index": 1,
+                        "provider_name": "azurerm",
+                        "schema_version": 0,
+                        "values": {
+                            "additional_capabilities": [],
+                            "admin_password": null,
+                            "admin_ssh_key": [
+                                {
+                                    "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                                    "username": "azureuser"
+                                }
+                            ],
+                            "admin_username": "azureuser",
+                            "allow_extension_operations": true,
+                            "availability_set_id": "",
+                            "boot_diagnostics": [
+                                {
+                                    "storage_account_uri": "https://diagd07a8864062ab024.blob.core.windows.net/"
+                                }
+                            ],
+                            "computer_name": "myvm",
+                            "custom_data": null,
+                            "dedicated_host_id": "",
+                            "disable_password_authentication": true,
+                            "eviction_policy": "",
+                            "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-1",
+                            "identity": [],
+                            "location": "eastus",
+                            "max_bid_price": -1,
+                            "name": "myVM-1",
+                            "network_interface_ids": [
+                                "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-1"
+                            ],
+                            "os_disk": [
+                                {
+                                    "caching": "ReadWrite",
+                                    "diff_disk_settings": [],
+                                    "disk_encryption_set_id": "",
+                                    "disk_size_gb": 30,
+                                    "name": "myOsDisk-1",
+                                    "storage_account_type": "Premium_LRS",
+                                    "write_accelerator_enabled": false
+                                }
+                            ],
+                            "plan": [],
+                            "priority": "Regular",
+                            "private_ip_address": "10.0.1.6",
+                            "private_ip_addresses": [
+                                "10.0.1.6"
+                            ],
+                            "provision_vm_agent": true,
+                            "proximity_placement_group_id": "",
+                            "public_ip_address": "",
+                            "public_ip_addresses": [],
+                            "resource_group_name": "myResourceGroup",
+                            "secret": [],
+                            "size": "Standard_DS1_v2",
+                            "source_image_id": "",
+                            "source_image_reference": [
+                                {
+                                    "offer": "UbuntuServer",
+                                    "publisher": "Canonical",
+                                    "sku": "16.04.0-LTS",
+                                    "version": "latest"
+                                }
+                            ],
+                            "tags": {
+                                "environment": "Terraform Demo"
+                            },
+                            "timeouts": null,
+                            "virtual_machine_id": "9695d5af-231e-4543-8c5a-a82d68c545cf",
+                            "virtual_machine_scale_set_id": "",
+                            "zone": ""
+                        },
+                        "depends_on": [
+                            "azurerm_network_interface.myterraformnic",
+                            "azurerm_resource_group.myterraformgroup",
+                            "azurerm_storage_account.mystorageaccount",
+                            "azurerm_subnet.myterraformsubnet",
+                            "azurerm_virtual_network.myterraformnetwork",
+                            "random_id.randomId",
+                            "tls_private_key.example_ssh"
+                        ]
+                    },
+                    {
+                        "address": "azurerm_linux_virtual_machine.myterraformvm",
+                        "mode": "managed",
+                        "type": "azurerm_linux_virtual_machine",
+                        "name": "myterraformvm",
+                        "index": 2,
+                        "provider_name": "azurerm",
+                        "schema_version": 0,
+                        "values": {
+                            "additional_capabilities": [],
+                            "admin_password": null,
+                            "admin_ssh_key": [
+                                {
+                                    "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                                    "username": "azureuser"
+                                }
+                            ],
+                            "admin_username": "azureuser",
+                            "allow_extension_operations": true,
+                            "availability_set_id": "",
+                            "boot_diagnostics": [
+                                {
+                                    "storage_account_uri": "https://diagd07a8864062ab024.blob.core.windows.net/"
+                                }
+                            ],
+                            "computer_name": "myvm",
+                            "custom_data": null,
+                            "dedicated_host_id": "",
+                            "disable_password_authentication": true,
+                            "eviction_policy": "",
+                            "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-2",
+                            "identity": [],
+                            "location": "eastus",
+                            "max_bid_price": -1,
+                            "name": "myVM-2",
+                            "network_interface_ids": [
+                                "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-2"
+                            ],
+                            "os_disk": [
+                                {
+                                    "caching": "ReadWrite",
+                                    "diff_disk_settings": [],
+                                    "disk_encryption_set_id": "",
+                                    "disk_size_gb": 30,
+                                    "name": "myOsDisk-2",
+                                    "storage_account_type": "Premium_LRS",
+                                    "write_accelerator_enabled": false
+                                }
+                            ],
+                            "plan": [],
+                            "priority": "Regular",
+                            "private_ip_address": "10.0.1.4",
+                            "private_ip_addresses": [
+                                "10.0.1.4"
+                            ],
+                            "provision_vm_agent": true,
+                            "proximity_placement_group_id": "",
+                            "public_ip_address": "",
+                            "public_ip_addresses": [],
+                            "resource_group_name": "myResourceGroup",
+                            "secret": [],
+                            "size": "Standard_DS1_v2",
+                            "source_image_id": "",
+                            "source_image_reference": [
+                                {
+                                    "offer": "UbuntuServer",
+                                    "publisher": "Canonical",
+                                    "sku": "16.04.0-LTS",
+                                    "version": "latest"
+                                }
+                            ],
+                            "tags": {
+                                "environment": "Terraform Demo"
+                            },
+                            "timeouts": null,
+                            "virtual_machine_id": "98d00449-3a5f-49a5-9d60-4489d7dd4c51",
+                            "virtual_machine_scale_set_id": "",
+                            "zone": ""
+                        },
+                        "depends_on": [
+                            "azurerm_network_interface.myterraformnic",
+                            "azurerm_resource_group.myterraformgroup",
+                            "azurerm_storage_account.mystorageaccount",
+                            "azurerm_subnet.myterraformsubnet",
+                            "azurerm_virtual_network.myterraformnetwork",
+                            "random_id.randomId",
+                            "tls_private_key.example_ssh"
+                        ]
+                    },
+                    {
+                        "address": "azurerm_network_interface.myterraformnic",
+                        "mode": "managed",
+                        "type": "azurerm_network_interface",
+                        "name": "myterraformnic",
+                        "index": 1,
+                        "provider_name": "azurerm",
+                        "schema_version": 0,
+                        "values": {
+                            "applied_dns_servers": [],
+                            "dns_servers": [],
+                            "enable_accelerated_networking": false,
+                            "enable_ip_forwarding": false,
+                            "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-1",
+                            "internal_dns_name_label": "",
+                            "internal_domain_name_suffix": "3hkgj4s1qhgutixayuob5sf5od.bx.internal.cloudapp.net",
+                            "ip_configuration": [
+                                {
+                                    "name": "myNicConfiguration-1",
+                                    "primary": true,
+                                    "private_ip_address": "10.0.1.6",
+                                    "private_ip_address_allocation": "Dynamic",
+                                    "private_ip_address_version": "IPv4",
+                                    "public_ip_address_id": "",
+                                    "subnet_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet"
+                                }
+                            ],
+                            "location": "eastus",
+                            "mac_address": "00-0D-3A-9E-4D-41",
+                            "name": "myNIC-1",
+                            "private_ip_address": "10.0.1.6",
+                            "private_ip_addresses": [
+                                "10.0.1.6"
+                            ],
+                            "resource_group_name": "myResourceGroup",
+                            "tags": {
+                                "environment": "Terraform Demo"
+                            },
+                            "timeouts": null,
+                            "virtual_machine_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-1"
+                        },
+                        "depends_on": [
+                            "azurerm_resource_group.myterraformgroup",
+                            "azurerm_subnet.myterraformsubnet",
+                            "azurerm_virtual_network.myterraformnetwork"
+                        ]
+                    },
+                    {
+                        "address": "azurerm_network_interface.myterraformnic",
+                        "mode": "managed",
+                        "type": "azurerm_network_interface",
+                        "name": "myterraformnic",
+                        "index": 2,
+                        "provider_name": "azurerm",
+                        "schema_version": 0,
+                        "values": {
+                            "applied_dns_servers": [],
+                            "dns_servers": [],
+                            "enable_accelerated_networking": false,
+                            "enable_ip_forwarding": false,
+                            "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-2",
+                            "internal_dns_name_label": "",
+                            "internal_domain_name_suffix": "3hkgj4s1qhgutixayuob5sf5od.bx.internal.cloudapp.net",
+                            "ip_configuration": [
+                                {
+                                    "name": "myNicConfiguration-2",
+                                    "primary": true,
+                                    "private_ip_address": "10.0.1.4",
+                                    "private_ip_address_allocation": "Dynamic",
+                                    "private_ip_address_version": "IPv4",
+                                    "public_ip_address_id": "",
+                                    "subnet_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet"
+                                }
+                            ],
+                            "location": "eastus",
+                            "mac_address": "00-0D-3A-9E-4F-05",
+                            "name": "myNIC-2",
+                            "private_ip_address": "10.0.1.4",
+                            "private_ip_addresses": [
+                                "10.0.1.4"
+                            ],
+                            "resource_group_name": "myResourceGroup",
+                            "tags": {
+                                "environment": "Terraform Demo"
+                            },
+                            "timeouts": null,
+                            "virtual_machine_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-2"
+                        },
+                        "depends_on": [
+                            "azurerm_resource_group.myterraformgroup",
+                            "azurerm_subnet.myterraformsubnet",
+                            "azurerm_virtual_network.myterraformnetwork"
+                        ]
+                    },
+                    {
+                        "address": "azurerm_network_interface.myterraformnic",
+                        "mode": "managed",
+                        "type": "azurerm_network_interface",
+                        "name": "myterraformnic",
+                        "index": 0,
+                        "provider_name": "azurerm",
+                        "schema_version": 0,
+                        "values": {
+                            "applied_dns_servers": [],
+                            "dns_servers": [],
+                            "enable_accelerated_networking": false,
+                            "enable_ip_forwarding": false,
+                            "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/myNIC-0",
+                            "internal_dns_name_label": "",
+                            "internal_domain_name_suffix": "3hkgj4s1qhgutixayuob5sf5od.bx.internal.cloudapp.net",
+                            "ip_configuration": [
+                                {
+                                    "name": "myNicConfiguration-0",
+                                    "primary": true,
+                                    "private_ip_address": "10.0.1.5",
+                                    "private_ip_address_allocation": "Dynamic",
+                                    "private_ip_address_version": "IPv4",
+                                    "public_ip_address_id": "",
+                                    "subnet_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet"
+                                }
+                            ],
+                            "location": "eastus",
+                            "mac_address": "00-0D-3A-9E-4A-C1",
+                            "name": "myNIC-0",
+                            "private_ip_address": "10.0.1.5",
+                            "private_ip_addresses": [
+                                "10.0.1.5"
+                            ],
+                            "resource_group_name": "myResourceGroup",
+                            "tags": {
+                                "environment": "Terraform Demo"
+                            },
+                            "timeouts": null,
+                            "virtual_machine_id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/myVM-0"
+                        },
+                        "depends_on": [
+                            "azurerm_resource_group.myterraformgroup",
+                            "azurerm_subnet.myterraformsubnet",
+                            "azurerm_virtual_network.myterraformnetwork"
+                        ]
+                    },
+                    {
+                        "address": "azurerm_network_security_group.myterraformnsg",
+                        "mode": "managed",
+                        "type": "azurerm_network_security_group",
+                        "name": "myterraformnsg",
+                        "provider_name": "azurerm",
+                        "schema_version": 0,
+                        "values": {
+                            "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/myNetworkSecurityGroup",
+                            "location": "eastus",
+                            "name": "myNetworkSecurityGroup",
+                            "resource_group_name": "myResourceGroup",
+                            "security_rule": [
+                                {
+                                    "access": "Allow",
+                                    "description": "",
+                                    "destination_address_prefix": "*",
+                                    "destination_address_prefixes": [],
+                                    "destination_application_security_group_ids": [],
+                                    "destination_port_range": "22",
+                                    "destination_port_ranges": [],
+                                    "direction": "Inbound",
+                                    "name": "SSH",
+                                    "priority": 1001,
+                                    "protocol": "Tcp",
+                                    "source_address_prefix": "*",
+                                    "source_address_prefixes": [],
+                                    "source_application_security_group_ids": [],
+                                    "source_port_range": "*",
+                                    "source_port_ranges": []
+                                }
+                            ],
+                            "tags": {
+                                "environment": "Terraform Demo"
+                            },
+                            "timeouts": null
+                        },
+                        "depends_on": [
+                            "azurerm_resource_group.myterraformgroup"
+                        ]
+                    },
+                    {
+                        "address": "azurerm_resource_group.myterraformgroup",
+                        "mode": "managed",
+                        "type": "azurerm_resource_group",
+                        "name": "myterraformgroup",
+                        "provider_name": "azurerm",
+                        "schema_version": 0,
+                        "values": {
+                            "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup",
+                            "location": "eastus",
+                            "name": "myResourceGroup",
+                            "tags": {
+                                "environment": "Terraform Demo"
+                            },
+                            "timeouts": null
+                        }
+                    },
+                    {
+                        "address": "azurerm_storage_account.mystorageaccount",
+                        "mode": "managed",
+                        "type": "azurerm_storage_account",
+                        "name": "mystorageaccount",
+                        "provider_name": "azurerm",
+                        "schema_version": 2,
+                        "values": {
+                            "access_tier": "Hot",
+                            "account_kind": "StorageV2",
+                            "account_replication_type": "LRS",
+                            "account_tier": "Standard",
+                            "allow_blob_public_access": true,
+                            "blob_properties": [],
+                            "custom_domain": [],
+                            "enable_https_traffic_only": true,
+                            "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/diagd07a8864062ab024",
+                            "identity": [],
+                            "is_hns_enabled": false,
+                            "location": "eastus",
+                            "name": "diagd07a8864062ab024",
+                            "network_rules": [
+                                {
+                                    "bypass": [
+                                        "AzureServices"
+                                    ],
+                                    "default_action": "Allow",
+                                    "ip_rules": [],
+                                    "virtual_network_subnet_ids": []
+                                }
+                            ],
+                            "primary_access_key": "PipFZL9VbQSU9gy4V7yI2FVJucZhOhumTL5/zuFIzNv5hpQJEbV4DGTOuC5/T5ryGKKtd6a0j8e3tQuytmfObg==",
+                            "primary_blob_connection_string": "DefaultEndpointsProtocol=https;BlobEndpoint=https://diagd07a8864062ab024.blob.core.windows.net/;AccountName=diagd07a8864062ab024;AccountKey=PipFZL9VbQSU9gy4V7yI2FVJucZhOhumTL5/zuFIzNv5hpQJEbV4DGTOuC5/T5ryGKKtd6a0j8e3tQuytmfObg==",
+                            "primary_blob_endpoint": "https://diagd07a8864062ab024.blob.core.windows.net/",
+                            "primary_blob_host": "diagd07a8864062ab024.blob.core.windows.net",
+                            "primary_connection_string": "DefaultEndpointsProtocol=https;AccountName=diagd07a8864062ab024;AccountKey=PipFZL9VbQSU9gy4V7yI2FVJucZhOhumTL5/zuFIzNv5hpQJEbV4DGTOuC5/T5ryGKKtd6a0j8e3tQuytmfObg==;EndpointSuffix=core.windows.net",
+                            "primary_dfs_endpoint": "https://diagd07a8864062ab024.dfs.core.windows.net/",
+                            "primary_dfs_host": "diagd07a8864062ab024.dfs.core.windows.net",
+                            "primary_file_endpoint": "https://diagd07a8864062ab024.file.core.windows.net/",
+                            "primary_file_host": "diagd07a8864062ab024.file.core.windows.net",
+                            "primary_location": "eastus",
+                            "primary_queue_endpoint": "https://diagd07a8864062ab024.queue.core.windows.net/",
+                            "primary_queue_host": "diagd07a8864062ab024.queue.core.windows.net",
+                            "primary_table_endpoint": "https://diagd07a8864062ab024.table.core.windows.net/",
+                            "primary_table_host": "diagd07a8864062ab024.table.core.windows.net",
+                            "primary_web_endpoint": "https://diagd07a8864062ab024.z13.web.core.windows.net/",
+                            "primary_web_host": "diagd07a8864062ab024.z13.web.core.windows.net",
+                            "queue_properties": [
+                                {
+                                    "cors_rule": [],
+                                    "hour_metrics": [
+                                        {
+                                            "enabled": true,
+                                            "include_apis": true,
+                                            "retention_policy_days": 7,
+                                            "version": "1.0"
+                                        }
+                                    ],
+                                    "logging": [
+                                        {
+                                            "delete": false,
+                                            "read": false,
+                                            "retention_policy_days": 0,
+                                            "version": "1.0",
+                                            "write": false
+                                        }
+                                    ],
+                                    "minute_metrics": [
+                                        {
+                                            "enabled": false,
+                                            "include_apis": false,
+                                            "retention_policy_days": 0,
+                                            "version": "1.0"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "resource_group_name": "myResourceGroup",
+                            "secondary_access_key": "6x0Z/qPiqqQqMmzFU2D0vK69Goq+tZY91aEmfjRWnPRsGiWkweaWnzGseuSjiR45s64/CZA2a7SL7zgL0f7Xrw==",
+                            "secondary_blob_connection_string": "",
+                            "secondary_blob_endpoint": null,
+                            "secondary_blob_host": null,
+                            "secondary_connection_string": "DefaultEndpointsProtocol=https;AccountName=diagd07a8864062ab024;AccountKey=6x0Z/qPiqqQqMmzFU2D0vK69Goq+tZY91aEmfjRWnPRsGiWkweaWnzGseuSjiR45s64/CZA2a7SL7zgL0f7Xrw==;EndpointSuffix=core.windows.net",
+                            "secondary_dfs_endpoint": null,
+                            "secondary_dfs_host": null,
+                            "secondary_file_endpoint": null,
+                            "secondary_file_host": null,
+                            "secondary_location": "",
+                            "secondary_queue_endpoint": null,
+                            "secondary_queue_host": null,
+                            "secondary_table_endpoint": null,
+                            "secondary_table_host": null,
+                            "secondary_web_endpoint": null,
+                            "secondary_web_host": null,
+                            "static_website": [],
+                            "tags": {
+                                "environment": "Terraform Demo"
+                            },
+                            "timeouts": null
+                        },
+                        "depends_on": [
+                            "azurerm_resource_group.myterraformgroup",
+                            "random_id.randomId"
+                        ]
+                    },
+                    {
+                        "address": "azurerm_subnet.myterraformsubnet",
+                        "mode": "managed",
+                        "type": "azurerm_subnet",
+                        "name": "myterraformsubnet",
+                        "provider_name": "azurerm",
+                        "schema_version": 0,
+                        "values": {
+                            "address_prefix": "10.0.1.0/24",
+                            "address_prefixes": [
+                                "10.0.1.0/24"
+                            ],
+                            "delegation": [],
+                            "enforce_private_link_endpoint_network_policies": false,
+                            "enforce_private_link_service_network_policies": false,
+                            "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet",
+                            "name": "mySubnet",
+                            "resource_group_name": "myResourceGroup",
+                            "service_endpoints": [],
+                            "timeouts": null,
+                            "virtual_network_name": "myVnet"
+                        },
+                        "depends_on": [
+                            "azurerm_resource_group.myterraformgroup",
+                            "azurerm_virtual_network.myterraformnetwork"
+                        ]
+                    },
+                    {
+                        "address": "azurerm_virtual_network.myterraformnetwork",
+                        "mode": "managed",
+                        "type": "azurerm_virtual_network",
+                        "name": "myterraformnetwork",
+                        "provider_name": "azurerm",
+                        "schema_version": 0,
+                        "values": {
+                            "address_space": [
+                                "10.0.0.0/16"
+                            ],
+                            "ddos_protection_plan": [],
+                            "dns_servers": [],
+                            "guid": "fa64d4e9-815b-49cd-a2e0-c51c1fc8bf73",
+                            "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet",
+                            "location": "eastus",
+                            "name": "myVnet",
+                            "resource_group_name": "myResourceGroup",
+                            "subnet": [
+                                {
+                                    "address_prefix": "10.0.1.0/24",
+                                    "id": "/subscriptions/f2ae062f-427e-49f4-bf1b-2aeea1219ddc/resourceGroups/myResourceGroup/providers/Microsoft.Network/virtualNetworks/myVnet/subnets/mySubnet",
+                                    "name": "mySubnet",
+                                    "security_group": ""
+                                }
+                            ],
+                            "tags": {
+                                "environment": "Terraform Demo"
+                            },
+                            "timeouts": null
+                        },
+                        "depends_on": [
+                            "azurerm_resource_group.myterraformgroup"
+                        ]
+                    },
+                    {
+                        "address": "random_id.randomId",
+                        "mode": "managed",
+                        "type": "random_id",
+                        "name": "randomId",
+                        "provider_name": "random",
+                        "schema_version": 0,
+                        "values": {
+                            "b64": "0HqIZAYqsCQ",
+                            "b64_std": "0HqIZAYqsCQ=",
+                            "b64_url": "0HqIZAYqsCQ",
+                            "byte_length": 8,
+                            "dec": "15022469470229278756",
+                            "hex": "d07a8864062ab024",
+                            "id": "0HqIZAYqsCQ",
+                            "keepers": {
+                                "resource_group": "myResourceGroup"
+                            },
+                            "prefix": null
+                        },
+                        "depends_on": [
+                            "azurerm_resource_group.myterraformgroup"
+                        ]
+                    },
+                    {
+                        "address": "tls_private_key.example_ssh",
+                        "mode": "managed",
+                        "type": "tls_private_key",
+                        "name": "example_ssh",
+                        "provider_name": "tls",
+                        "schema_version": 0,
+                        "values": {
+                            "algorithm": "RSA",
+                            "ecdsa_curve": "P224",
+                            "id": "f3780497ffd4c4151ba42525aeaef941c750396e",
+                            "private_key_pem": "-----BEGIN RSA PRIVATE KEY-----\n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\n-----END RSA PRIVATE KEY-----\n",
+                            "public_key_fingerprint_md5": "6e:71:1d:ba:a4:e1:88:0f:d8:6d:2b:4a:8d:4d:15:bb",
+                            "public_key_openssh": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLuCBrlV2D3ArsUpdc86+SIxrn4Hks9x6VN5t0pk1BUkcaU86fLl1stk9jn6vwHS5HiQpUQfqB5WiHcAOMXDbC9DBwp1w3oC+rY6zFjtcEFRQhMwWXd/scUc53J+D0hDCECfh9w6WOh+8kLxQ+SFyVbQavHqXpyKX1RdEzkeLqKYzWqHHDsEOyL5bC6bLuvSbUHsJM+lz8Nw6JLARGJXHQtP2AuUjP4wZT1G/ix11QewmLXDWCzUnSQBsSMACWj07dHUCf4T/17vVe9YZTF8IWDLsxp/v7mVNEJpp81t93UUfUuOO86oV/7Xf64xOA91E7YPGlUXabuxJ2NKvfz8fIuBiJ4J83o0sv4GSRVxUiydQEr9Z3SBZurEfsy+vD59z2ib94clCBHJqyYBjqdzpALsf0L5YfCGoTxL9KxRUBXcH6NnjGb20mkr3C/eZl+CunvPjFjftqXf9zekWY2TNgJ/jpH1vIDbQoopWjc7m5mIa90KbxoTISPZBk5F+MEZMzFEki20xq950amSISVUdpZ2ROpnX3lw4d57X+2FpNmrYmSHtgOhKjl0PpKjNC963plJ0ObFe/S7kHG7aD4wudIIRc3djKhfcbwwwCzKNW7A9L2Hs913Ub+N1aMY5K/yykj4FT6oJj6SrhMrSSVxRatZRipsiWKPdrL4kWrWFn3Q==\n",
+                            "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAy7gga5Vdg9wK7FKXXPOv\nkiMa5+B5LPcelTebdKZNQVJHGlPOny5dbLZPY5+r8B0uR4kKVEH6geVoh3ADjFw2\nwvQwcKdcN6Avq2OsxY7XBBUUITMFl3f7HFHOdyfg9IQwhAn4fcOljofvJC8UPkhc\nlW0Grx6l6cil9UXRM5Hi6imM1qhxw7BDsi+Wwumy7r0m1B7CTPpc/DcOiSwERiVx\n0LT9gLlIz+MGU9Rv4sddUHsJi1w1gs1J0kAbEjAAlo9O3R1An+E/9e71XvWGUxfC\nFgy7Maf7+5lTRCaafNbfd1FH1LjjvOqFf+13+uMTgPdRO2DxpVF2m7sSdjSr38/H\nyLgYieCfN6NLL+BkkVcVIsnUBK/Wd0gWbqxH7Mvrw+fc9om/eHJQgRyasmAY6nc6\nQC7H9C+WHwhqE8S/SsUVAV3B+jZ4xm9tJpK9wv3mZfgrp7z4xY37al3/c3pFmNkz\nYCf46R9byA20KKKVo3O5uZiGvdCm8aEyEj2QZORfjBGTMxRJIttMavedGpkiElVH\naWdkTqZ195cOHee1/thaTZq2Jkh7YDoSo5dD6SozQvet6ZSdDmxXv0u5Bxu2g+ML\nnSCEXN3YyoX3G8MMAsyjVuwPS9h7Pdd1G/jdWjGOSv8spI+BU+qCY+kq4TK0klcU\nWrWUYqbIlij3ay+JFq1hZ90CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+                            "rsa_bits": 4096
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "configuration": {
+        "provider_config": {
+            "azurerm": {
+                "name": "azurerm",
+                "version_constraint": "~\u003e2.0",
+                "expressions": {
+                    "features": [
+                        {}
+                    ]
+                }
+            }
+        },
+        "root_module": {
+            "outputs": {
+                "tls_private_key": {
+                    "expression": {
+                        "references": [
+                            "tls_private_key.example_ssh"
+                        ]
+                    }
+                }
+            },
+            "resources": [
+                {
+                    "address": "azurerm_linux_virtual_machine.myterraformvm",
+                    "mode": "managed",
+                    "type": "azurerm_linux_virtual_machine",
+                    "name": "myterraformvm",
+                    "provider_config_key": "azurerm",
+                    "expressions": {
+                        "admin_ssh_key": [
+                            {
+                                "public_key": {
+                                    "references": [
+                                        "tls_private_key.example_ssh"
+                                    ]
+                                },
+                                "username": {
+                                    "constant_value": "azureuser"
+                                }
+                            }
+                        ],
+                        "admin_username": {
+                            "constant_value": "azureuser"
+                        },
+                        "boot_diagnostics": [
+                            {
+                                "storage_account_uri": {
+                                    "references": [
+                                        "azurerm_storage_account.mystorageaccount"
+                                    ]
+                                }
+                            }
+                        ],
+                        "computer_name": {
+                            "constant_value": "myvm"
+                        },
+                        "disable_password_authentication": {
+                            "constant_value": true
+                        },
+                        "location": {
+                            "constant_value": "eastus"
+                        },
+                        "name": {
+                            "references": [
+                                "count.index"
+                            ]
+                        },
+                        "network_interface_ids": {
+                            "references": [
+                                "azurerm_network_interface.myterraformnic",
+                                "count.index"
+                            ]
+                        },
+                        "os_disk": [
+                            {
+                                "caching": {
+                                    "constant_value": "ReadWrite"
+                                },
+                                "name": {
+                                    "references": [
+                                        "count.index"
+                                    ]
+                                },
+                                "storage_account_type": {
+                                    "constant_value": "Premium_LRS"
+                                }
+                            }
+                        ],
+                        "resource_group_name": {
+                            "references": [
+                                "azurerm_resource_group.myterraformgroup"
+                            ]
+                        },
+                        "size": {
+                            "constant_value": "Standard_DS1_v2"
+                        },
+                        "source_image_reference": [
+                            {
+                                "offer": {
+                                    "constant_value": "UbuntuServer"
+                                },
+                                "publisher": {
+                                    "constant_value": "Canonical"
+                                },
+                                "sku": {
+                                    "constant_value": "16.04.0-LTS"
+                                },
+                                "version": {
+                                    "constant_value": "latest"
+                                }
+                            }
+                        ],
+                        "tags": {
+                            "constant_value": {
+                                "environment": "Terraform Demo"
+                            }
+                        }
+                    },
+                    "schema_version": 0,
+                    "count_expression": {
+                        "constant_value": 2
+                    }
+                },
+                {
+                    "address": "azurerm_network_interface.myterraformnic",
+                    "mode": "managed",
+                    "type": "azurerm_network_interface",
+                    "name": "myterraformnic",
+                    "provider_config_key": "azurerm",
+                    "expressions": {
+                        "ip_configuration": [
+                            {
+                                "name": {
+                                    "references": [
+                                        "count.index"
+                                    ]
+                                },
+                                "private_ip_address_allocation": {
+                                    "constant_value": "Dynamic"
+                                },
+                                "subnet_id": {
+                                    "references": [
+                                        "azurerm_subnet.myterraformsubnet"
+                                    ]
+                                }
+                            }
+                        ],
+                        "location": {
+                            "constant_value": "eastus"
+                        },
+                        "name": {
+                            "references": [
+                                "count.index"
+                            ]
+                        },
+                        "resource_group_name": {
+                            "references": [
+                                "azurerm_resource_group.myterraformgroup"
+                            ]
+                        },
+                        "tags": {
+                            "constant_value": {
+                                "environment": "Terraform Demo"
+                            }
+                        }
+                    },
+                    "schema_version": 0,
+                    "count_expression": {
+                        "constant_value": 2
+                    }
+                },
+                {
+                    "address": "azurerm_network_security_group.myterraformnsg",
+                    "mode": "managed",
+                    "type": "azurerm_network_security_group",
+                    "name": "myterraformnsg",
+                    "provider_config_key": "azurerm",
+                    "expressions": {
+                        "location": {
+                            "constant_value": "eastus"
+                        },
+                        "name": {
+                            "constant_value": "myNetworkSecurityGroup"
+                        },
+                        "resource_group_name": {
+                            "references": [
+                                "azurerm_resource_group.myterraformgroup"
+                            ]
+                        },
+                        "tags": {
+                            "constant_value": {
+                                "environment": "Terraform Demo"
+                            }
+                        }
+                    },
+                    "schema_version": 0
+                },
+                {
+                    "address": "azurerm_resource_group.myterraformgroup",
+                    "mode": "managed",
+                    "type": "azurerm_resource_group",
+                    "name": "myterraformgroup",
+                    "provider_config_key": "azurerm",
+                    "expressions": {
+                        "location": {
+                            "constant_value": "eastus"
+                        },
+                        "name": {
+                            "constant_value": "myResourceGroup"
+                        },
+                        "tags": {
+                            "constant_value": {
+                                "environment": "Terraform Demo"
+                            }
+                        }
+                    },
+                    "schema_version": 0
+                },
+                {
+                    "address": "azurerm_storage_account.mystorageaccount",
+                    "mode": "managed",
+                    "type": "azurerm_storage_account",
+                    "name": "mystorageaccount",
+                    "provider_config_key": "azurerm",
+                    "expressions": {
+                        "account_replication_type": {
+                            "constant_value": "LRS"
+                        },
+                        "account_tier": {
+                            "constant_value": "Standard"
+                        },
+                        "location": {
+                            "constant_value": "eastus"
+                        },
+                        "name": {
+                            "references": [
+                                "random_id.randomId"
+                            ]
+                        },
+                        "resource_group_name": {
+                            "references": [
+                                "azurerm_resource_group.myterraformgroup"
+                            ]
+                        },
+                        "tags": {
+                            "constant_value": {
+                                "environment": "Terraform Demo"
+                            }
+                        }
+                    },
+                    "schema_version": 2
+                },
+                {
+                    "address": "azurerm_subnet.myterraformsubnet",
+                    "mode": "managed",
+                    "type": "azurerm_subnet",
+                    "name": "myterraformsubnet",
+                    "provider_config_key": "azurerm",
+                    "expressions": {
+                        "address_prefixes": {
+                            "constant_value": [
+                                "10.0.1.0/24"
+                            ]
+                        },
+                        "name": {
+                            "constant_value": "mySubnet"
+                        },
+                        "resource_group_name": {
+                            "references": [
+                                "azurerm_resource_group.myterraformgroup"
+                            ]
+                        },
+                        "virtual_network_name": {
+                            "references": [
+                                "azurerm_virtual_network.myterraformnetwork"
+                            ]
+                        }
+                    },
+                    "schema_version": 0
+                },
+                {
+                    "address": "azurerm_virtual_network.myterraformnetwork",
+                    "mode": "managed",
+                    "type": "azurerm_virtual_network",
+                    "name": "myterraformnetwork",
+                    "provider_config_key": "azurerm",
+                    "expressions": {
+                        "address_space": {
+                            "constant_value": [
+                                "10.0.0.0/16"
+                            ]
+                        },
+                        "location": {
+                            "constant_value": "eastus"
+                        },
+                        "name": {
+                            "constant_value": "myVnet"
+                        },
+                        "resource_group_name": {
+                            "references": [
+                                "azurerm_resource_group.myterraformgroup"
+                            ]
+                        },
+                        "tags": {
+                            "constant_value": {
+                                "environment": "Terraform Demo"
+                            }
+                        }
+                    },
+                    "schema_version": 0
+                },
+                {
+                    "address": "random_id.randomId",
+                    "mode": "managed",
+                    "type": "random_id",
+                    "name": "randomId",
+                    "provider_config_key": "random",
+                    "expressions": {
+                        "byte_length": {
+                            "constant_value": 8
+                        },
+                        "keepers": {
+                            "references": [
+                                "azurerm_resource_group.myterraformgroup"
+                            ]
+                        }
+                    },
+                    "schema_version": 0
+                },
+                {
+                    "address": "tls_private_key.example_ssh",
+                    "mode": "managed",
+                    "type": "tls_private_key",
+                    "name": "example_ssh",
+                    "provider_config_key": "tls",
+                    "expressions": {
+                        "algorithm": {
+                            "constant_value": "RSA"
+                        },
+                        "rsa_bits": {
+                            "constant_value": 4096
+                        }
+                    },
+                    "schema_version": 0
+                }
+            ]
+        }
+    }
+}
