@@ -52,16 +52,28 @@ For ($i=0; $i -lt $hostnamecount; $i++) {
     $ipdns1 = ($content1.content | ConvertFrom-Json)._ref
     $ipdns2 = ($content2.content | ConvertFrom-Json)._ref
     ForEach ($ip in $ipdns) {
-        $updateuri = "$baseuri/$ip"
-        Invoke-WebRequest -Uri $updateuri -Method DELETE -Credential $creds -ContentType "application/json" -SkipCertificateCheck -Verbose
+        If ($content -ne "[]") {
+            $updateuri = "$baseuri/$ip"
+            Invoke-WebRequest -Uri $updateuri -Method DELETE -Credential $creds -ContentType "application/json" -SkipCertificateCheck -Verbose
+        }
+        $content = Invoke-WebRequest -Uri $checkuri -Method GET -Credential $creds -ContentType "application/json" -SkipCertificateCheck -Verbose
+        $ipdns = ($content.content | ConvertFrom-Json)._ref
     }
     ForEach ($ip in $ipdns1) {
-        $updateuri = "$baseuri1/$ip"
-        Invoke-WebRequest -Uri $updateuri -Method DELETE -Credential $creds -ContentType "application/json" -SkipCertificateCheck -Verbose
+        If ($content -ne "[]") {      
+            $updateuri = "$baseuri1/$ip"
+            Invoke-WebRequest -Uri $updateuri -Method DELETE -Credential $creds -ContentType "application/json" -SkipCertificateCheck -Verbose
+        }
+        $content1 = Invoke-WebRequest -Uri $ptrcheckuri -Method GET -Credential $creds -ContentType "application/json" -SkipCertificateCheck -Verbose
+        $ipdns1 = ($content1.content | ConvertFrom-Json)._ref
     }
     ForEach ($ip in $ipdns2) {
-        $updateuri = "$baseuri/$ip"
-        Invoke-WebRequest -Uri $updateuri -Method DELETE -Credential $creds -ContentType "application/json" -SkipCertificateCheck -Verbose
+        If ($content -ne "[]") {
+            $updateuri = "$baseuri/$ip"
+            Invoke-WebRequest -Uri $updateuri -Method DELETE -Credential $creds -ContentType "application/json" -SkipCertificateCheck -Verbose
+        }
+        $content2 = Invoke-WebRequest -Uri $checkuri1 -Method GET -Credential $creds -ContentType "application/json" -SkipCertificateCheck -Verbose
+        $ipdns2 = ($content2.content | ConvertFrom-Json)._ref
     }
     $data = @" 
             {
