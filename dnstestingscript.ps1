@@ -29,7 +29,7 @@ For ($i=0; $i -lt $hostnamecount; $i++) {
     # $ipaddress = Get-AzNetworkInterface -ResourceGroupName $rg.ResourceGroupName | where-object {$_.Name -match $hostname}
     # $ipaddress = $ipaddress.IpConfigurations[0].PrivateIpAddress
     $hostname = $hostnamestemp[$i]
-    $ipaddress = $iptemp[$i]
+    $ipaddresstemp = $iptemp[$i]
     $username = "sapapiadm"
     $password = $infobloxpwd
     $password = ConvertTo-SecureString -String $password -AsPlainText -Force
@@ -78,13 +78,13 @@ For ($i=0; $i -lt $hostnamecount; $i++) {
     $data = @" 
             {
                 "name": "$hostname$fqdn",
-                "ipv4addr": "$ipaddress"
+                "ipv4addr": "$ipaddresstemp"
             }
     "@
     $data1 = @" 
            {
                 "name": "$hostname$fqdn",
-                "ipv4addr": "$ipaddress",
+                "ipv4addr": "$ipaddresstemp",
                 "ptrdname": "$hostname$fqdn"
             }
     "@
