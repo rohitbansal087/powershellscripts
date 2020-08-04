@@ -1,0 +1,44 @@
+#!/bin/bash
+
+terraform show -json tfplan > terraformplan.json
+
+RESOURCE_CHANGES_LENGTH=`cat terraformplan.json | jq '.resource_changes | length'`
+username="sapapiadm"
+password=$infobloxpwd
+password=ConvertTo-SecureString -String $password -AsPlainText -Force
+creds=New-Object System.Management.Automation.PSCredential $username, $password
+baseuri="https://infoblox-api.wal-mart.com/wapi/v2.5"
+checkuri="$baseuri/record:a?name=$hostname.cloud.wal-mart.com"
+content=Invoke-WebRequest -Uri $checkuri -Method GET -Credential $creds -ContentType "application/json" -SkipCertificateCheck -Verbose
+ipdns=$content.Content | ConvertFrom-Json
+ipdns=$ipdns._ref
+deleteuri="$baseuri/$ipdns"
+username1="sap-api"
+password1=$infobloxpwd1
+password1=ConvertTo-SecureString -String $password1 -AsPlainText -Force
+creds1=New-Object System.Management.Automation.PSCredential $username1, $password1
+baseuri1="https://azure-infoblox-api.us.walmart.net/wapi/v2.5"
+checkuri1="$baseuri1/record:ptr?ipv4addr=$ip"
+content1=Invoke-WebRequest -Uri $checkuri1 -Method GET -Credential $creds1 -ContentType "application/json" -SkipCertificateCheck -Verbose
+ipdns1=$content1.Content | ConvertFrom-Json
+ipdns1=$ipdns1._ref
+ipdns1
+deleteuri1="$baseuri1/$ipdns1"
+deleteuri1
+ 
+for (( i=0; i<${RESOURCE_CHANGES_LENGTH}; i++ ))
+do
+
+ACTION=`cat terraformplan.json | jq -r ".resource_changes[${i}].change.actions[]"`
+TYPE=`cat terraformplan.json | jq -r ".resource_changes[${i}].type"`
+IP_ADDRESS=`cat terraformplan.json | jq -r ".resource_changes[${i}].change.before.private_ip_address"`
+NAME=`cat terraformplan.json | jq -r ".resource_changes[${i}].change.before.name"`
+
+if [ ${ACTION} == "delete" ] && [ ${TYPE} == "azurerm_virtual_machine" ]
+then
+
+Invoke-WebRequest -Uri $deleteuri -Method DELETE -Credential $creds -ContentType "application/json" -SkipCertificateCheck -Verbose
+Invoke-WebRequest -Uri $deleteuri1 -Method DELETE -Credential $creds1 -ContentType "application/json" -SkipCertificateCheck -Verbose
+
+fi
+done
