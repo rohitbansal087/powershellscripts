@@ -10,3 +10,6 @@ public class TrustAllCertsPolicy : ICertificatePolicy {
  }
 "@
 [System.Net.ServicePointManager]::CertificatePolicy = New-Object TrustAllCertsPolicy
+ content=`curl -u sapapiadm:699rrCPu8 --request GET -H "Accept: application/json" https://infoblox-api.wal-mart.com/wapi/v2.5/record:a?name=vas675-01.cloud.wal-mart.com -k`
+  echo $content | jq  -r '.[]._ref'
+  curl -u sapapiadm:699rrCPu8 --request DELETE -H "Accept: application/json" https://infoblox-api.wal-mart.com/wapi/v2.5/$ipdns -k
